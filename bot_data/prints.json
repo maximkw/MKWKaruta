@@ -1,0 +1,5810 @@
+{
+  "64": {
+    "Clan": "Megavolt",
+    "Clan Tag": "MV",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Chaos": {
+    "Clan": "%6ab27*",
+    "Clan Tag": "%6ab27*",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Deakon": {
+    "Clan": "%6ab27*",
+    "Clan Tag": "%6ab27*",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Finnn": {
+    "Clan": "%6ab27*",
+    "Clan Tag": "%6ab27*",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "FredUS": {
+    "Clan": "%6ab27*",
+    "Clan Tag": "%6ab27*",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Jyran": {
+    "Clan": "%6ab27*",
+    "Clan Tag": "%6ab27*",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Kingster": {
+    "Clan": "%6ab27*",
+    "Clan Tag": "%6ab27*",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Shawger": {
+    "Clan": "%6ab27*",
+    "Clan Tag": "%6ab27*",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Skull": {
+    "Clan": "%6ab27*",
+    "Clan Tag": "%6ab27*",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Teovani": {
+    "Clan": "%6ab27*",
+    "Clan Tag": "%6ab27*",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "ZachNY": {
+    "Clan": "%6ab27*",
+    "Clan Tag": "%6ab27*",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "FioNa": {
+    "Clan": "5G",
+    "Clan Tag": "5G",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "MankOH": {
+    "Clan": "5G",
+    "Clan Tag": "5G",
+    "Print": 0,
+    "Alt Name": "Nishino"
+  },
+  "Marron": {
+    "Clan": "5G",
+    "Clan Tag": "5G",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Negima": {
+    "Clan": "5G",
+    "Clan Tag": "5G",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Prin": {
+    "Clan": "5G",
+    "Clan Tag": "5G",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Rigel": {
+    "Clan": "5G",
+    "Clan Tag": "5G",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Sabo": {
+    "Clan": "5G",
+    "Clan Tag": "5G",
+    "Print": 0,
+    "Alt Name": "goroushigeno231"
+  },
+  "SCAR": {
+    "Clan": "5G",
+    "Clan Tag": "5G",
+    "Print": 0,
+    "Alt Name": "roka"
+  },
+  "Shamo": {
+    "Clan": "5G",
+    "Clan Tag": "5G",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Sumosuma": {
+    "Clan": "5G",
+    "Clan Tag": "5G",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Syo": {
+    "Clan": "5G",
+    "Clan Tag": "5G",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Tank": {
+    "Clan": "5G",
+    "Clan Tag": "5G",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Aditya": {
+    "Clan": "Apocalypse",
+    "Clan Tag": "λρ",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Batcake": {
+    "Clan": "Apocalypse",
+    "Clan Tag": "λρ",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Insane": {
+    "Clan": "Apocalypse",
+    "Clan Tag": "λρ",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Lexin": {
+    "Clan": "Apocalypse",
+    "Clan Tag": "λρ",
+    "Print": 0,
+    "Alt Name": "SMASH"
+  },
+  "Mirymeg": {
+    "Clan": "Apocalypse",
+    "Clan Tag": "λρ",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Sky9": {
+    "Clan": "Apocalypse",
+    "Clan Tag": "λρ",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Slide": {
+    "Clan": "Apocalypse",
+    "Clan Tag": "λρ",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Smoke": {
+    "Clan": "Apocalypse",
+    "Clan Tag": "λρ",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Tom": {
+    "Clan": "Apocalypse",
+    "Clan Tag": "λρ",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Veil": {
+    "Clan": "Apocalypse",
+    "Clan Tag": "λρ",
+    "Print": 0,
+    "Alt Name": "Zyr"
+  },
+  "Zoey": {
+    "Clan": "Apocalypse",
+    "Clan Tag": "λρ",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Charlie": {
+    "Clan": "Ascension",
+    "Clan Tag": "Ac",
+    "Print": 1,
+    "Alt Name": "CharlieG"
+  },
+  "ctb": {
+    "Clan": "Ascension",
+    "Clan Tag": "Ac",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Edge": {
+    "Clan": "Ascension",
+    "Clan Tag": "Ac",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Jesse": {
+    "Clan": "Ascension",
+    "Clan Tag": "Ac",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Kara": {
+    "Clan": "Ascension",
+    "Clan Tag": "Ac",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Philip": {
+    "Clan": "Ascension",
+    "Clan Tag": "Ac",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Sawyer": {
+    "Clan": "Ascension",
+    "Clan Tag": "Ac",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Soony": {
+    "Clan": "Ascension",
+    "Clan Tag": "Ac",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Sprixy": {
+    "Clan": "Ascension",
+    "Clan Tag": "Ac",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Stubbz": {
+    "Clan": "Ascension",
+    "Clan Tag": "Ac",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Twingy": {
+    "Clan": "Ascension",
+    "Clan Tag": "Ac",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Zilla": {
+    "Clan": "Ascension",
+    "Clan Tag": "Ac",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Ballin": {
+    "Clan": "Avail",
+    "Clan Tag": "Λv",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "JAM": {
+    "Clan": "Avail",
+    "Clan Tag": "Λv",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Joris": {
+    "Clan": "Avail",
+    "Clan Tag": "Λv",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Nash": {
+    "Clan": "Avail",
+    "Clan Tag": "Λv",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Night": {
+    "Clan": "Avail",
+    "Clan Tag": "Λv",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Nikos": {
+    "Clan": "Avail",
+    "Clan Tag": "Λv",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Olifré": {
+    "Clan": "Avail",
+    "Clan Tag": "Λv",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "ThomasFR": {
+    "Clan": "Avail",
+    "Clan Tag": "Λv",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "ThomasNL": {
+    "Clan": "Avail",
+    "Clan Tag": "Λv",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Zoan": {
+    "Clan": "Avail",
+    "Clan Tag": "Λv",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Elox": {
+    "Clan": "Aυspicion",
+    "Clan Tag": "λυ",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "FrankDaSpeed": {
+    "Clan": "Aυspicion",
+    "Clan Tag": "λυ",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Galla": {
+    "Clan": "Aυspicion",
+    "Clan Tag": "λυ",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Goomba": {
+    "Clan": "Aυspicion",
+    "Clan Tag": "λυ",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Jayde": {
+    "Clan": "Aυspicion",
+    "Clan Tag": "λυ",
+    "Print": 0,
+    "Alt Name": "Jaden"
+  },
+  "Jzck": {
+    "Clan": "Aυspicion",
+    "Clan Tag": "λυ",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Marco": {
+    "Clan": "Aυspicion",
+    "Clan Tag": "λυ",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "PKBOY": {
+    "Clan": "Aυspicion",
+    "Clan Tag": "λυ",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Sasuke": {
+    "Clan": "Aυspicion",
+    "Clan Tag": "λυ",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "SilverBAD": {
+    "Clan": "Aυspicion",
+    "Clan Tag": "λυ",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Vantoxify": {
+    "Clan": "Aυspicion",
+    "Clan Tag": "λυ",
+    "Print": 1,
+    "Alt Name": "Aero"
+  },
+  "Vinny": {
+    "Clan": "Aυspicion",
+    "Clan Tag": "λυ",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "4Vex": {
+    "Clan": "BB71",
+    "Clan Tag": "BB71",
+    "Print": 3,
+    "Alt Name": ""
+  },
+  "FK Yazid": {
+    "Clan": "BB71",
+    "Clan Tag": "BB71",
+    "Print": 0,
+    "Alt Name": "Champion DZ"
+  },
+  "Froej": {
+    "Clan": "BB71",
+    "Clan Tag": "BB71",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "JordanFR": {
+    "Clan": "BB71",
+    "Clan Tag": "BB71",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Layla": {
+    "Clan": "BB71",
+    "Clan Tag": "BB71",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Lukas": {
+    "Clan": "BB71",
+    "Clan Tag": "BB71",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Mio": {
+    "Clan": "BB71",
+    "Clan Tag": "BB71",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "ru2": {
+    "Clan": "BB71",
+    "Clan Tag": "BB71",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Taxi": {
+    "Clan": "BB71",
+    "Clan Tag": "BB71",
+    "Print": 0,
+    "Alt Name": "Kami"
+  },
+  "Tramzy": {
+    "Clan": "BB71",
+    "Clan Tag": "BB71",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "VicZ": {
+    "Clan": "BB71",
+    "Clan Tag": "BB71",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Wobii": {
+    "Clan": "BB71",
+    "Clan Tag": "BB71",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Daseia": {
+    "Clan": "Beati pacifici",
+    "Clan Tag": "(χ)",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Eon": {
+    "Clan": "Beati pacifici",
+    "Clan Tag": "(χ)",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Flairy": {
+    "Clan": "Beati pacifici",
+    "Clan Tag": "(χ)",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Kirito": {
+    "Clan": "Beati pacifici",
+    "Clan Tag": "(χ)",
+    "Print": 2,
+    "Alt Name": "Kiri"
+  },
+  "Nelly": {
+    "Clan": "Beati pacifici",
+    "Clan Tag": "(χ)",
+    "Print": 0,
+    "Alt Name": "ne"
+  },
+  "Proto": {
+    "Clan": "Beati pacifici",
+    "Clan Tag": "(χ)",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Puffe": {
+    "Clan": "Beati pacifici",
+    "Clan Tag": "(χ)",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Ruby": {
+    "Clan": "Beati pacifici",
+    "Clan Tag": "(χ)",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Shamron": {
+    "Clan": "Beati pacifici",
+    "Clan Tag": "(χ)",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Shane": {
+    "Clan": "Beati pacifici",
+    "Clan Tag": "(χ)",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Solar": {
+    "Clan": "Beati pacifici",
+    "Clan Tag": "(χ)",
+    "Print": 0,
+    "Alt Name": "Beulah"
+  },
+  "Val": {
+    "Clan": "Beati pacifici",
+    "Clan Tag": "(χ)",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "AaronW": {
+    "Clan": "Brophy's Theory",
+    "Clan Tag": "βτ",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Alex F": {
+    "Clan": "Brophy's Theory",
+    "Clan Tag": "βτ",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Andreese": {
+    "Clan": "Brophy's Theory",
+    "Clan Tag": "βτ",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Bickbork": {
+    "Clan": "Brophy's Theory",
+    "Clan Tag": "βτ",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Broph": {
+    "Clan": "Brophy's Theory",
+    "Clan Tag": "βτ",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Claus": {
+    "Clan": "Brophy's Theory",
+    "Clan Tag": "βτ",
+    "Print": 0,
+    "Alt Name": "LaBerto"
+  },
+  "Hedwig": {
+    "Clan": "Brophy's Theory",
+    "Clan Tag": "βτ",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Hydr8ion": {
+    "Clan": "Brophy's Theory",
+    "Clan Tag": "βτ",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Sassak": {
+    "Clan": "Brophy's Theory",
+    "Clan Tag": "βτ",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Schultz": {
+    "Clan": "Brophy's Theory",
+    "Clan Tag": "βτ",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Woomy": {
+    "Clan": "Brophy's Theory",
+    "Clan Tag": "βτ",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "AT": {
+    "Clan": "Contingency",
+    "Clan Tag": "Cγ1",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Behemoth": {
+    "Clan": "Contingency",
+    "Clan Tag": "Cγ1",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Charmender": {
+    "Clan": "Contingency",
+    "Clan Tag": "Cγ1",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Cynical": {
+    "Clan": "Contingency",
+    "Clan Tag": "Cγ1",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "DanUK": {
+    "Clan": "Contingency",
+    "Clan Tag": "Cγ1",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Dermo": {
+    "Clan": "Contingency",
+    "Clan Tag": "Cγ1",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Joeey": {
+    "Clan": "Contingency",
+    "Clan Tag": "Cγ1",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Klyde": {
+    "Clan": "Contingency",
+    "Clan Tag": "Cγ1",
+    "Print": 0,
+    "Alt Name": "Komali"
+  },
+  "Luis": {
+    "Clan": "Contingency",
+    "Clan Tag": "Cγ1",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "May": {
+    "Clan": "Contingency",
+    "Clan Tag": "Cγ1",
+    "Print": 1,
+    "Alt Name": "ELP"
+  },
+  "Ruko": {
+    "Clan": "Contingency",
+    "Clan Tag": "Cγ1",
+    "Print": 0,
+    "Alt Name": "Hiruko"
+  },
+  "StormW": {
+    "Clan": "Contingency",
+    "Clan Tag": "Cγ1",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Dxrk": {
+    "Clan": "Contingency HD189733b",
+    "Clan Tag": "Cγ2",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Isaac": {
+    "Clan": "Contingency HD189733b",
+    "Clan Tag": "Cγ2",
+    "Print": 2,
+    "Alt Name": ""
+  },
+  "Kaden": {
+    "Clan": "Contingency HD189733b",
+    "Clan Tag": "Cγ2",
+    "Print": 2,
+    "Alt Name": ""
+  },
+  "Karteer": {
+    "Clan": "Contingency HD189733b",
+    "Clan Tag": "Cγ2",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Ket": {
+    "Clan": "Contingency HD189733b",
+    "Clan Tag": "Cγ2",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Nacht": {
+    "Clan": "Contingency HD189733b",
+    "Clan Tag": "Cγ2",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Notion": {
+    "Clan": "Contingency HD189733b",
+    "Clan Tag": "Cγ2",
+    "Print": 0,
+    "Alt Name": "Swag"
+  },
+  "Red": {
+    "Clan": "Contingency HD189733b",
+    "Clan Tag": "Cγ2",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Rhino": {
+    "Clan": "Contingency HD189733b",
+    "Clan Tag": "Cγ2",
+    "Print": 0,
+    "Alt Name": "Cosmo"
+  },
+  "Striker": {
+    "Clan": "Contingency HD189733b",
+    "Clan Tag": "Cγ2",
+    "Print": 0,
+    "Alt Name": "Crimson"
+  },
+  "Sugar": {
+    "Clan": "Contingency HD189733b",
+    "Clan Tag": "Cγ2",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Wob": {
+    "Clan": "Contingency HD189733b",
+    "Clan Tag": "Cγ2",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Arii": {
+    "Clan": "Daisy Squad",
+    "Clan Tag": "Daisy",
+    "Print": 1,
+    "Alt Name": "Armyu"
+  },
+  "Arvin": {
+    "Clan": "Daisy Squad",
+    "Clan Tag": "Daisy",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Duqee": {
+    "Clan": "Daisy Squad",
+    "Clan Tag": "Daisy",
+    "Print": 0,
+    "Alt Name": "Lunehov"
+  },
+  "EmilP": {
+    "Clan": "Daisy Squad",
+    "Clan Tag": "Daisy",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Judge": {
+    "Clan": "Daisy Squad",
+    "Clan Tag": "Daisy",
+    "Print": 0,
+    "Alt Name": "sean"
+  },
+  "LukeGB": {
+    "Clan": "Daisy Squad",
+    "Clan Tag": "Daisy",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Mae": {
+    "Clan": "Daisy Squad",
+    "Clan Tag": "Daisy",
+    "Print": 1,
+    "Alt Name": "Mvanhoppe"
+  },
+  "Merc": {
+    "Clan": "Daisy Squad",
+    "Clan Tag": "Daisy",
+    "Print": 0,
+    "Alt Name": "chris"
+  },
+  "rusoX": {
+    "Clan": "Daisy Squad",
+    "Clan Tag": "Daisy",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Sammeh": {
+    "Clan": "Daisy Squad",
+    "Clan Tag": "Daisy",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Shura": {
+    "Clan": "Daisy Squad",
+    "Clan Tag": "Daisy",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Swig": {
+    "Clan": "Daisy Squad",
+    "Clan Tag": "Daisy",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Arti": {
+    "Clan": "Explorers of Time",
+    "Clan Tag": "EXO",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Cookie": {
+    "Clan": "Explorers of Time",
+    "Clan Tag": "EXO",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Ethan": {
+    "Clan": "Explorers of Time",
+    "Clan Tag": "EXO",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Goobma": {
+    "Clan": "Explorers of Time",
+    "Clan Tag": "EXO",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Mank": {
+    "Clan": "Explorers of Time",
+    "Clan Tag": "EXO",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Maxx": {
+    "Clan": "Explorers of Time",
+    "Clan Tag": "EXO",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Sabby": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": "Grilla"
+  },
+  "Spart": {
+    "Clan": "Explorers of Time",
+    "Clan Tag": "EXO",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Tekken": {
+    "Clan": "Explorers of Time",
+    "Clan Tag": "EXO",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Yoshter": {
+    "Clan": "Explorers of Time",
+    "Clan Tag": "EXO",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Zane": {
+    "Clan": "Explorers of Time",
+    "Clan Tag": "EXO",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Alpha": {
+    "Clan": "Ez",
+    "Clan Tag": "Σz",
+    "Print": 0,
+    "Alt Name": "AlphaKC"
+  },
+  "Ben": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": "Benlans"
+  },
+  "Bluesharp": {
+    "Clan": "Ez",
+    "Clan Tag": "Σz",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Dynasty": {
+    "Clan": "Ez",
+    "Clan Tag": "Σz",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "JonahMD": {
+    "Clan": "Ez",
+    "Clan Tag": "Σz",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Kato": {
+    "Clan": "Ez",
+    "Clan Tag": "Σz",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "KRUSTYKRAB": {
+    "Clan": "Ez",
+    "Clan Tag": "Σz",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Kyaujah": {
+    "Clan": "Ez",
+    "Clan Tag": "Σz",
+    "Print": 0,
+    "Alt Name": "CowJah"
+  },
+  "LeonNL": {
+    "Clan": "Ez",
+    "Clan Tag": "Σz",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Serene": {
+    "Clan": "Ez",
+    "Clan Tag": "Σz",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Timmi": {
+    "Clan": "Ez",
+    "Clan Tag": "Σz",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "9Sweetie": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "AaronM": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Abhilash": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Akseli": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Alan": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Alec": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Alex99": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "AlexGER": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Amanda": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Ammo": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Amp": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Andrei": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Andremar": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Ansem": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Apraxia": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Ari": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Arrow": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Asuna": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": "Hisanori"
+  },
+  "Aymr": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": "mari"
+  },
+  "Ayuro": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Babe": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Bad Wolf": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Beat": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Bell Pepper": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Big Wolf": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Bixbolt": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": "Ben"
+  },
+  "Bobchan": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Boshievie": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Bowser Boi": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Braixen": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": "Graxel"
+  },
+  "Brandon": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "BrandonUS": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "BrieSea": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Cabbage72": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Calum": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "ChainChompBraden": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": "Gnald"
+  },
+  "Charichan": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "CallumUS": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Chenzo27": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Chilly": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Chillz": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Claudia": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Clément": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Consumify": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Rankays": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Coolhaxx": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Cosmos": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Cow Man": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Crowe": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Dane": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Danny": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": "Gerger"
+  },
+  "Darkness": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Darkz": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": "César"
+  },
+  "Davcap": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Daviid": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Death": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 1,
+    "Alt Name": "John"
+  },
+  "Deedee": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "DemonMK": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Denmark": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Devin": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Dimensi": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "DKSC4life": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": "German"
+  },
+  "Dragone": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Dragz": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Drex": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Drone": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Echo": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Edna": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "EFG": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 1,
+    "Alt Name": "JoshUS"
+  },
+  "Elmer": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Emily": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Ensuto": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Enxrgy": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Estrobink": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "EZ": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "eZiire": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Falcon": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Florp": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Flowx": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Floz": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Foo": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Forest": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Formosa": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 1,
+    "Alt Name": "Jackie"
+  },
+  "Franco": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Fudge": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 1,
+    "Alt Name": "FudgeSG"
+  },
+  "Funky MK": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Fusion": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "GabrielUS": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "geno2205": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "GeorgeWlk11": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Ghostly": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "GHxST": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Glitch G": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Gluke19": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "GUNGIRL": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Gureatest": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Hari": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Hebo": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Henry": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": "HenryUS"
+  },
+  "Hinako": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Hintz": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Hiroto": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "hot dog": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Hyp": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "HyperKnight": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Ibbss": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Impact": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "itsJC": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 2,
+    "Alt Name": ""
+  },
+  "Jack": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Jack1337": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Jackson": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Jacob": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": "snail"
+  },
+  "JadenUS": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "JakeH": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "JakeUK": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Jameschan": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Jamez": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Jamo": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Jason": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Javi": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Jawdyn": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Jay": {
+    "Clan": "Hell's Kitchen",
+    "Clan Tag": "HK1",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "JAYU": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "JeanoLBN": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Jef": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Wintertime": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "JeffUS": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": "JeffH"
+  },
+  "Jeroen": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Jessica": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "JMAN37": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Jogn": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Johnny": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Jorge": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Jos": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Judah": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "JustinH": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": "Guru"
+  },
+  "JZ": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Kaguya": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": "mattu"
+  },
+  "Kairos": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Kalkk": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Kapera": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Kasper": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "KB9": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Kela": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "KenB": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Kitty": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Kizaru": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Kotoran": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Kraken": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Krylo": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Kyon": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": "kny"
+  },
+  "Kyoryu": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Lambo": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Lati": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Lawrence": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Lebby": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Leiamaster": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Leon": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": "Leon Japan"
+  },
+  "Leta": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Lewis": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Lewy": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Lidl19": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Little": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Lloyd": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Locky": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Loen": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Lore": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Lorone": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "LucaMK": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Lucas": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Luciano": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": "TriqX"
+  },
+  "LukeIRE": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Lvxclayy": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "LydeumZ": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Maidvelia": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Malachy": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": "Ginger"
+  },
+  "Marcine": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Margio": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Marik": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Marlin": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "MarvinUS": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Matt": {
+    "Clan": "Lightspeed",
+    "Clan Tag": "[L]",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "MatthewAUS": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Mau": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "me3": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "MeatySticky": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Mehdi": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "MichaelH": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Minato": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": "Neu"
+  },
+  "Miya": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "MoBa": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Moises": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Monyz": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Epix": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "MR Jaaj": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "msquidward17": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Mystery": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "NaeNae7": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Nago": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Nara": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "NateRNH": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "NathanUK": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "NEO": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Neptune": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "NicoCAN": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Nightublette": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Niklas": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": "Espeon"
+  },
+  "nintendohomo": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "NITROFOX": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "NixUS": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "NMeade": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Noahb": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Non": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Nota": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Nubbly": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Nuclear": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Nyoni": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Oga": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Ops": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Osf": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Ozzy": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": "Bran"
+  },
+  "Paprika": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Pascal": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Pechesh": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Pepe": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Perisov": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "PGC": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Phoenix": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": "CrystalizedMage"
+  },
+  "PokeMich84": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Process": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Prodigy": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Qmugehu": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Quasar": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Racer": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Raf": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Ragemodepigeon": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Ratio26": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Renvoid": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Rerim": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Richard": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "RiGAL": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Ringo": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Rip": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Ripper": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Rob": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Rob Fortune": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Rui": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Ry": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "RyanSCO": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Saber": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Safire": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "SaGaR": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Sam G": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Samuel": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Sanchez": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": "Alex S"
+  },
+  "Sasha": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Saturn": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Sawyer7": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Scythe": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Sean": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": "SeanUK"
+  },
+  "Season": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "sekai": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Sethseib": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": "barracuda"
+  },
+  "Sgt": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Shaun": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Sherm": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Shiroe": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Shix": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Siege": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Silver": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "SnowyFire": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Sodalite": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "SonicAdam": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Sousui": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Spencer": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Hiroki": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Spock": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Spoof": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Starlight": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Steven": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "SteveUS": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": "Grilly"
+  },
+  "Suis": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": "Jupiter"
+  },
+  "Sukay": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Superz": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Swanitox": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "The Stone": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "The[CA]Rob": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "TheCoolBoy": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Thiazzi": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Thinking Emoji": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "TKS_Memer": {
+    "Clan": "gardie lumb wacker",
+    "Clan Tag": "glw",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Tobun": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Toku": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "trace": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Trap": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Trevor RS05": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Tripp": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Ax": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "TristanUK": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "trombonewizzerd": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Troy": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Udo": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Under": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Vankle": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Victor": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": "Gammon"
+  },
+  "Watcha": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Will": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Wit": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Wolfpack": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Yago": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Yamaguchi": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Yasu": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Yasuo": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Yasuyoshi": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Yoni": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Yuchiro": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Yuiazu": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Yuto": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": "Harold"
+  },
+  "Yuup": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": "Maya"
+  },
+  "ZedR": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "ZeldaCubed": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": "GCubed"
+  },
+  "ZGunnar": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Zia": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Zinou": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Zorro": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": "Zorrowned"
+  },
+  "Zouzou": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "zR": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "2Dyslexic": {
+    "Clan": "Free SA.10",
+    "Clan Tag": "3SA",
+    "Print": 0,
+    "Alt Name": "MKM"
+  },
+  "Bodge": {
+    "Clan": "Free SA.10",
+    "Clan Tag": "3SA",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "H7": {
+    "Clan": "Free SA.10",
+    "Clan Tag": "3SA",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "iGTP": {
+    "Clan": "Free SA.10",
+    "Clan Tag": "3SA",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Loonar": {
+    "Clan": "Free SA.10",
+    "Clan Tag": "3SA",
+    "Print": 1,
+    "Alt Name": "Lunar"
+  },
+  "MHS": {
+    "Clan": "Free SA.10",
+    "Clan Tag": "3SA",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Nxvy": {
+    "Clan": "Free SA.10",
+    "Clan Tag": "3SA",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "SA 10": {
+    "Clan": "Free SA.10",
+    "Clan Tag": "3SA",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Vortex": {
+    "Clan": "Free SA.10",
+    "Clan Tag": "3SA",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Baked Bean": {
+    "Clan": "gardie dumb wacker",
+    "Clan Tag": "gdw",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Blazeyy": {
+    "Clan": "gardie dumb wacker",
+    "Clan Tag": "gdw",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Charlotte": {
+    "Clan": "gardie dumb wacker",
+    "Clan Tag": "gdw",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Ciara": {
+    "Clan": "gardie dumb wacker",
+    "Clan Tag": "gdw",
+    "Print": 1,
+    "Alt Name": "tsu"
+  },
+  "EvanTX": {
+    "Clan": "gardie dumb wacker",
+    "Clan Tag": "gdw",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Kyouko": {
+    "Clan": "gardie dumb wacker",
+    "Clan Tag": "gdw",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "PandaMan": {
+    "Clan": "gardie dumb wacker",
+    "Clan Tag": "gdw",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Spongey": {
+    "Clan": "gardie dumb wacker",
+    "Clan Tag": "gdw",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Tony": {
+    "Clan": "gardie dumb wacker",
+    "Clan Tag": "gdw",
+    "Print": 0,
+    "Alt Name": "tong"
+  },
+  "Volt": {
+    "Clan": "gardie dumb wacker",
+    "Clan Tag": "gdw",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Zeke": {
+    "Clan": "gardie dumb wacker",
+    "Clan Tag": "gdw",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Aaron": {
+    "Clan": "gardie lumb wacker",
+    "Clan Tag": "glw",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Carlo": {
+    "Clan": "gardie lumb wacker",
+    "Clan Tag": "glw",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Gabey": {
+    "Clan": "gardie lumb wacker",
+    "Clan Tag": "glw",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Garde": {
+    "Clan": "gardie lumb wacker",
+    "Clan Tag": "glw",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Iraur": {
+    "Clan": "gardie lumb wacker",
+    "Clan Tag": "glw",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Julia": {
+    "Clan": "gardie lumb wacker",
+    "Clan Tag": "glw",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Lordsq": {
+    "Clan": "gardie lumb wacker",
+    "Clan Tag": "glw",
+    "Print": 0,
+    "Alt Name": "Squirrel"
+  },
+  "Myles": {
+    "Clan": "gardie lumb wacker",
+    "Clan Tag": "glw",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Pokko": {
+    "Clan": "gardie lumb wacker",
+    "Clan Tag": "glw",
+    "Print": 0,
+    "Alt Name": "pokko_hopper"
+  },
+  "Someone268": {
+    "Clan": "gardie lumb wacker",
+    "Clan Tag": "glw",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Zappy": {
+    "Clan": "gardie lumb wacker",
+    "Clan Tag": "glw",
+    "Print": 0,
+    "Alt Name": "Zappy"
+  },
+  "Arvo": {
+    "Clan": "George Arvo Mark Toad",
+    "Clan Tag": "GAMT",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Aura": {
+    "Clan": "George Arvo Mark Toad",
+    "Clan Tag": "GAMT",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Eric": {
+    "Clan": "George Arvo Mark Toad",
+    "Clan Tag": "GAMT",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "George": {
+    "Clan": "George Arvo Mark Toad",
+    "Clan Tag": "GAMT",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Lion": {
+    "Clan": "George Arvo Mark Toad",
+    "Clan Tag": "GAMT",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Log": {
+    "Clan": "George Arvo Mark Toad",
+    "Clan Tag": "GAMT",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Logan": {
+    "Clan": "Jx:",
+    "Clan Tag": "Jx:",
+    "Print": 2,
+    "Alt Name": "GroofO"
+  },
+  "Luna": {
+    "Clan": "George Arvo Mark Toad",
+    "Clan Tag": "GAMT",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Mark": {
+    "Clan": "George Arvo Mark Toad",
+    "Clan Tag": "GAMT",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "MikeV1": {
+    "Clan": "George Arvo Mark Toad",
+    "Clan Tag": "GAMT",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Toad": {
+    "Clan": "George Arvo Mark Toad",
+    "Clan Tag": "GAMT",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Viktor": {
+    "Clan": "George Arvo Mark Toad",
+    "Clan Tag": "GAMT",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Az": {
+    "Clan": "HEAVEN",
+    "Clan Tag": "≫★",
+    "Print": 0,
+    "Alt Name": "Azmact"
+  },
+  "Deco": {
+    "Clan": "HEAVEN",
+    "Clan Tag": "≫★",
+    "Print": 0,
+    "Alt Name": "TRUNKS"
+  },
+  "Hiduke": {
+    "Clan": "HEAVEN",
+    "Clan Tag": "≫★",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Hizumi": {
+    "Clan": "HEAVEN",
+    "Clan Tag": "≫★",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Jan": {
+    "Clan": "HEAVEN",
+    "Clan Tag": "≫★",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Kasperinos": {
+    "Clan": "HEAVEN",
+    "Clan Tag": "≫★",
+    "Print": 3,
+    "Alt Name": ""
+  },
+  "Nonge": {
+    "Clan": "HEAVEN",
+    "Clan Tag": "≫★",
+    "Print": 0,
+    "Alt Name": "NG"
+  },
+  "Roast": {
+    "Clan": "HEAVEN",
+    "Clan Tag": "≫★",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Satopy": {
+    "Clan": "HEAVEN",
+    "Clan Tag": "≫★",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Sebas": {
+    "Clan": "HEAVEN",
+    "Clan Tag": "≫★",
+    "Print": 0,
+    "Alt Name": "Sebastian"
+  },
+  "Type": {
+    "Clan": "HEAVEN",
+    "Clan Tag": "≫★",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Yoshikz": {
+    "Clan": "HEAVEN",
+    "Clan Tag": "≫★",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Aidlo": {
+    "Clan": "Heaven's Kitchen",
+    "Clan Tag": "HK2",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Bboy02": {
+    "Clan": "Heaven's Kitchen",
+    "Clan Tag": "HK2",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Blue Up": {
+    "Clan": "Heaven's Kitchen",
+    "Clan Tag": "HK2",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Epicdevil": {
+    "Clan": "Heaven's Kitchen",
+    "Clan Tag": "HK2",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Fahmi": {
+    "Clan": "Heaven's Kitchen",
+    "Clan Tag": "HK2",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Fizzy": {
+    "Clan": "Heaven's Kitchen",
+    "Clan Tag": "HK2",
+    "Print": 0,
+    "Alt Name": "Fizzy Spaghet"
+  },
+  "Ghost": {
+    "Clan": "Heaven's Kitchen",
+    "Clan Tag": "HK2",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Near": {
+    "Clan": "Heaven's Kitchen",
+    "Clan Tag": "HK2",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Sartaglo": {
+    "Clan": "Heaven's Kitchen",
+    "Clan Tag": "HK2",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Suciorap": {
+    "Clan": "Heaven's Kitchen",
+    "Clan Tag": "HK2",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Bryce": {
+    "Clan": "Hell's Kitchen",
+    "Clan Tag": "HK1",
+    "Print": 0,
+    "Alt Name": "Draco"
+  },
+  "KT": {
+    "Clan": "Hell's Kitchen",
+    "Clan Tag": "HK1",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Onyx": {
+    "Clan": "Hell's Kitchen",
+    "Clan Tag": "HK1",
+    "Print": 1,
+    "Alt Name": "Obsidian"
+  },
+  "Rock Dude": {
+    "Clan": "Hell's Kitchen",
+    "Clan Tag": "HK1",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Schwoz": {
+    "Clan": "Hell's Kitchen",
+    "Clan Tag": "HK1",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Snoopy": {
+    "Clan": "Hell's Kitchen",
+    "Clan Tag": "HK1",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "xWill": {
+    "Clan": "Hell's Kitchen",
+    "Clan Tag": "HK1",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Yang": {
+    "Clan": "Hell's Kitchen",
+    "Clan Tag": "HK1",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "ZealDMV": {
+    "Clan": "Hell's Kitchen",
+    "Clan Tag": "HK1",
+    "Print": 0,
+    "Alt Name": "Pharis"
+  },
+  "Achuu": {
+    "Clan": "Hispania",
+    "Clan Tag": "HS",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Alberto": {
+    "Clan": "Hispania",
+    "Clan Tag": "HS",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Broly": {
+    "Clan": "Hispania",
+    "Clan Tag": "HS",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Chateaux": {
+    "Clan": "Hispania",
+    "Clan Tag": "HS",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Gabo": {
+    "Clan": "Hispania",
+    "Clan Tag": "HS",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Hoesay": {
+    "Clan": "Hispania",
+    "Clan Tag": "HS",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Ignacio": {
+    "Clan": "Hispania",
+    "Clan Tag": "HS",
+    "Print": 0,
+    "Alt Name": "Darien"
+  },
+  "Josemi": {
+    "Clan": "Hispania",
+    "Clan Tag": "HS",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Klover": {
+    "Clan": "Hispania",
+    "Clan Tag": "HS",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Mephisto": {
+    "Clan": "Hispania",
+    "Clan Tag": "HS",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Vestoga": {
+    "Clan": "Hispania",
+    "Clan Tag": "HS",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Apple": {
+    "Clan": "ici ça bz",
+    "Clan Tag": "bz",
+    "Print": 0,
+    "Alt Name": "elcachalot"
+  },
+  "Browks": {
+    "Clan": "ici ça bz",
+    "Clan Tag": "bz",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Gisko": {
+    "Clan": "ici ça bz",
+    "Clan Tag": "bz",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "JayM": {
+    "Clan": "ici ça bz",
+    "Clan Tag": "bz",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Lxddz": {
+    "Clan": "ici ça bz",
+    "Clan Tag": "bz",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Mat": {
+    "Clan": "ici ça bz",
+    "Clan Tag": "bz",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Pansh": {
+    "Clan": "ici ça bz",
+    "Clan Tag": "bz",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Shark": {
+    "Clan": "ici ça bz",
+    "Clan Tag": "bz",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Shiv": {
+    "Clan": "ici ça bz",
+    "Clan Tag": "bz",
+    "Print": 0,
+    "Alt Name": "Dryade"
+  },
+  "Berry": {
+    "Clan": "Infinite",
+    "Clan Tag": "IF",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Brannon": {
+    "Clan": "Infinite",
+    "Clan Tag": "IF",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Evan": {
+    "Clan": "Infinite",
+    "Clan Tag": "IF",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Kenzo": {
+    "Clan": "Infinite",
+    "Clan Tag": "IF",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "LT": {
+    "Clan": "Infinite",
+    "Clan Tag": "IF",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Shadow": {
+    "Clan": "Infinite",
+    "Clan Tag": "IF",
+    "Print": 0,
+    "Alt Name": "K1NGTAVIAN"
+  },
+  "Snow": {
+    "Clan": "Infinite",
+    "Clan Tag": "IF",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Taz": {
+    "Clan": "Infinite",
+    "Clan Tag": "IF",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Trashy": {
+    "Clan": "Infinite",
+    "Clan Tag": "IF",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Tulls": {
+    "Clan": "Infinite",
+    "Clan Tag": "IF",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Ais": {
+    "Clan": "Jugar o Pensar",
+    "Clan Tag": "JP",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Aker": {
+    "Clan": "Jugar o Pensar",
+    "Clan Tag": "JP",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Fabian": {
+    "Clan": "Jugar o Pensar",
+    "Clan Tag": "JP",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Jaden": {
+    "Clan": "Jugar o Pensar",
+    "Clan Tag": "JP",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Kopa": {
+    "Clan": "Jugar o Pensar",
+    "Clan Tag": "JP",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Mythos": {
+    "Clan": "Jugar o Pensar",
+    "Clan Tag": "JP",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Pabloski": {
+    "Clan": "Jugar o Pensar",
+    "Clan Tag": "JP",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Rentorar": {
+    "Clan": "Jugar o Pensar",
+    "Clan Tag": "JP",
+    "Print": 0,
+    "Alt Name": "Kanto"
+  },
+  "Rompe": {
+    "Clan": "Jugar o Pensar",
+    "Clan Tag": "JP",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Sergio": {
+    "Clan": "Jugar o Pensar",
+    "Clan Tag": "JP",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Sota": {
+    "Clan": "Jugar o Pensar",
+    "Clan Tag": "JP",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Vilxs": {
+    "Clan": "Jugar o Pensar",
+    "Clan Tag": "JP",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "bobUK": {
+    "Clan": "Jx:",
+    "Clan Tag": "Jx:",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Jaker": {
+    "Clan": "Jx:",
+    "Clan Tag": "Jx:",
+    "Print": 0,
+    "Alt Name": "Jaker"
+  },
+  "Kazam": {
+    "Clan": "Jx:",
+    "Clan Tag": "Jx:",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Luxii": {
+    "Clan": "Jx:",
+    "Clan Tag": "Jx:",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Masq": {
+    "Clan": "Jx:",
+    "Clan Tag": "Jx:",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Ornan": {
+    "Clan": "Jx:",
+    "Clan Tag": "Jx:",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Storm": {
+    "Clan": "Jx:",
+    "Clan Tag": "Jx:",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Thunder": {
+    "Clan": "Jx:",
+    "Clan Tag": "Jx:",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Zach": {
+    "Clan": "Jx:",
+    "Clan Tag": "Jx:",
+    "Print": 0,
+    "Alt Name": "zachUK"
+  },
+  "Frozen": {
+    "Clan": "Jx.",
+    "Clan Tag": "Jx.",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Jeff": {
+    "Clan": "Jx.",
+    "Clan Tag": "Jx.",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Ken": {
+    "Clan": "Jx.",
+    "Clan Tag": "Jx.",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Maik": {
+    "Clan": "Jx.",
+    "Clan Tag": "Jx.",
+    "Print": 0,
+    "Alt Name": "mikeee"
+  },
+  "Matt EuTF": {
+    "Clan": "Jx.",
+    "Clan Tag": "Jx.",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Mura": {
+    "Clan": "Jx.",
+    "Clan Tag": "Jx.",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Pryze": {
+    "Clan": "Jx.",
+    "Clan Tag": "Jx.",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Sam": {
+    "Clan": "Jx.",
+    "Clan Tag": "Jx.",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Scamp": {
+    "Clan": "Jx.",
+    "Clan Tag": "Jx.",
+    "Print": 0,
+    "Alt Name": "Kim"
+  },
+  "Axel": {
+    "Clan": "Lethal Vendetta",
+    "Clan Tag": "LV2",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Callum": {
+    "Clan": "Lethal Vendetta",
+    "Clan Tag": "LV2",
+    "Print": 0,
+    "Alt Name": "CallumSCO"
+  },
+  "Dawn": {
+    "Clan": "Lethal Vendetta",
+    "Clan Tag": "LV2",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Hnery": {
+    "Clan": "Lethal Vendetta",
+    "Clan Tag": "LV2",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Kit": {
+    "Clan": "Lethal Vendetta",
+    "Clan Tag": "LV2",
+    "Print": 0,
+    "Alt Name": "Bompympow"
+  },
+  "Smu": {
+    "Clan": "Lethal Vendetta",
+    "Clan Tag": "LV2",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Sufy": {
+    "Clan": "Lethal Vendetta",
+    "Clan Tag": "LV2",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Swampy": {
+    "Clan": "Lethal Vendetta",
+    "Clan Tag": "LV2",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Vesf": {
+    "Clan": "Lethal Vendetta",
+    "Clan Tag": "LV2",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "ZachUSA": {
+    "Clan": "Lethal Vendetta",
+    "Clan Tag": "LV2",
+    "Print": 0,
+    "Alt Name": "zachUSA"
+  },
+  "Zale": {
+    "Clan": "Lethal Vendetta",
+    "Clan Tag": "LV2",
+    "Print": 0,
+    "Alt Name": "Adonis"
+  },
+  "Zenith": {
+    "Clan": "Lethal Vendetta",
+    "Clan Tag": "LV2",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Burke22": {
+    "Clan": "Lethal Vengeance",
+    "Clan Tag": "LV1",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Derek": {
+    "Clan": "Lethal Vengeance",
+    "Clan Tag": "LV1",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Goober": {
+    "Clan": "Lethal Vengeance",
+    "Clan Tag": "LV1",
+    "Print": 0,
+    "Alt Name": "Alex"
+  },
+  "Hibberd": {
+    "Clan": "Lethal Vengeance",
+    "Clan Tag": "LV1",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Ivan": {
+    "Clan": "Lethal Vengeance",
+    "Clan Tag": "LV1",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Nathan": {
+    "Clan": "Lethal Vengeance",
+    "Clan Tag": "LV1",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Psycho": {
+    "Clan": "Lethal Vengeance",
+    "Clan Tag": "LV1",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "RyanUK": {
+    "Clan": "Lethal Vengeance",
+    "Clan Tag": "LV1",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Saky": {
+    "Clan": "Lethal Vengeance",
+    "Clan Tag": "LV1",
+    "Print": 1,
+    "Alt Name": "sky"
+  },
+  "Christan": {
+    "Clan": "Lightspeed",
+    "Clan Tag": "[L]",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Conor": {
+    "Clan": "Lightspeed",
+    "Clan Tag": "[L]",
+    "Print": 0,
+    "Alt Name": "Avalon"
+  },
+  "Jed": {
+    "Clan": "Lightspeed",
+    "Clan Tag": "[L]",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Justin": {
+    "Clan": "Lightspeed",
+    "Clan Tag": "[L]",
+    "Print": 0,
+    "Alt Name": "JustinW"
+  },
+  "Kev": {
+    "Clan": "Lightspeed",
+    "Clan Tag": "[L]",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Maxi": {
+    "Clan": "Lightspeed",
+    "Clan Tag": "[L]",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Nix": {
+    "Clan": "Lightspeed",
+    "Clan Tag": "[L]",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Noah": {
+    "Clan": "Lightspeed",
+    "Clan Tag": "[L]",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "RushW": {
+    "Clan": "Lightspeed",
+    "Clan Tag": "[L]",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Taka": {
+    "Clan": "Lightspeed",
+    "Clan Tag": "[L]",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Zesti": {
+    "Clan": "Lightspeed",
+    "Clan Tag": "[L]",
+    "Print": 0,
+    "Alt Name": "Zestos"
+  },
+  "Abyssary": {
+    "Clan": "Long Shaft University",
+    "Clan Tag": "LSU",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Bawp": {
+    "Clan": "Long Shaft University",
+    "Clan Tag": "LSU",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Crash": {
+    "Clan": "Long Shaft University",
+    "Clan Tag": "LSU",
+    "Print": 0,
+    "Alt Name": "CrashCAN"
+  },
+  "Embrez": {
+    "Clan": "Long Shaft University",
+    "Clan Tag": "LSU",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Fresco": {
+    "Clan": "Long Shaft University",
+    "Clan Tag": "LSU",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "John": {
+    "Clan": "Long Shaft University",
+    "Clan Tag": "LSU",
+    "Print": 0,
+    "Alt Name": "Vapor"
+  },
+  "Korra": {
+    "Clan": "Long Shaft University",
+    "Clan Tag": "LSU",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Kro": {
+    "Clan": "Long Shaft University",
+    "Clan Tag": "LSU",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "TonyOH": {
+    "Clan": "Long Shaft University",
+    "Clan Tag": "LSU",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Trippy": {
+    "Clan": "Long Shaft University",
+    "Clan Tag": "LSU",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Tyy": {
+    "Clan": "Long Shaft University",
+    "Clan Tag": "LSU",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Zap": {
+    "Clan": "Long Shaft University",
+    "Clan Tag": "LSU",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Askaran": {
+    "Clan": "Lucky Seven Karters",
+    "Clan Tag": "7κ",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Blounard": {
+    "Clan": "Lucky Seven Karters",
+    "Clan Tag": "7κ",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Dracula": {
+    "Clan": "Lucky Seven Karters",
+    "Clan Tag": "7κ",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "DwainiumB": {
+    "Clan": "Lucky Seven Karters",
+    "Clan Tag": "7κ",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Garrett": {
+    "Clan": "Lucky Seven Karters",
+    "Clan Tag": "7κ",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Larb": {
+    "Clan": "Lucky Seven Karters",
+    "Clan Tag": "7κ",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Police": {
+    "Clan": "Lucky Seven Karters",
+    "Clan Tag": "7κ",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Rachy": {
+    "Clan": "Lucky Seven Karters",
+    "Clan Tag": "7κ",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Raven": {
+    "Clan": "Lucky Seven Karters",
+    "Clan Tag": "7κ",
+    "Print": 0,
+    "Alt Name": "Iceh"
+  },
+  "Tien": {
+    "Clan": "Lucky Seven Karters",
+    "Clan Tag": "7κ",
+    "Print": 0,
+    "Alt Name": "T_N"
+  },
+  "Twan": {
+    "Clan": "Lucky Seven Karters",
+    "Clan Tag": "7κ",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "VNix": {
+    "Clan": "Lucky Seven Karters",
+    "Clan Tag": "7κ",
+    "Print": 2,
+    "Alt Name": ""
+  },
+  "BSH": {
+    "Clan": "Luminescence",
+    "Clan Tag": "Lε",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Evasive": {
+    "Clan": "Luminescence",
+    "Clan Tag": "Lε",
+    "Print": 0,
+    "Alt Name": "EvasiveGC"
+  },
+  "Greg": {
+    "Clan": "Luminescence",
+    "Clan Tag": "Lε",
+    "Print": 0,
+    "Alt Name": "GeorgePlays02"
+  },
+  "Jezr": {
+    "Clan": "Luminescence",
+    "Clan Tag": "Lε",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Landon": {
+    "Clan": "Luminescence",
+    "Clan Tag": "Lε",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Mike": {
+    "Clan": "Luminescence",
+    "Clan Tag": "Lε",
+    "Print": 0,
+    "Alt Name": "Mike Pakistan"
+  },
+  "Monty": {
+    "Clan": "Luminescence",
+    "Clan Tag": "Lε",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "ssjonahss": {
+    "Clan": "Luminescence",
+    "Clan Tag": "Lε",
+    "Print": 0,
+    "Alt Name": "$$Jonah$$"
+  },
+  "USK": {
+    "Clan": "Luminescence",
+    "Clan Tag": "Lε",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Wesley": {
+    "Clan": "Luminescence",
+    "Clan Tag": "Lε",
+    "Print": 0,
+    "Alt Name": "SpiritX"
+  },
+  "Act": {
+    "Clan": "Lz",
+    "Clan Tag": "Lz",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Ayanami": {
+    "Clan": "Lz",
+    "Clan Tag": "Lz",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Bran": {
+    "Clan": "Lz",
+    "Clan Tag": "Lz",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Claw": {
+    "Clan": "Lz",
+    "Clan Tag": "Lz",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Delis": {
+    "Clan": "Lz",
+    "Clan Tag": "Lz",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "KA": {
+    "Clan": "Lz",
+    "Clan Tag": "Lz",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Kocchi": {
+    "Clan": "Lz",
+    "Clan Tag": "Lz",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Py": {
+    "Clan": "Lz",
+    "Clan Tag": "Lz",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Ruki": {
+    "Clan": "Lz",
+    "Clan Tag": "Lz",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Silviu": {
+    "Clan": "Lz",
+    "Clan Tag": "Lz",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Tears": {
+    "Clan": "Lz",
+    "Clan Tag": "Lz",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Znoky": {
+    "Clan": "Lz",
+    "Clan Tag": "Lz",
+    "Print": 0,
+    "Alt Name": "Zn"
+  },
+  "Draggy": {
+    "Clan": "Man I Love Funky",
+    "Clan Tag": "MILF",
+    "Print": 0,
+    "Alt Name": "iDrag"
+  },
+  "Falco": {
+    "Clan": "Man I Love Funky",
+    "Clan Tag": "MILF",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "JackAUS": {
+    "Clan": "Man I Love Funky",
+    "Clan Tag": "MILF",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "JakeSG": {
+    "Clan": "Man I Love Funky",
+    "Clan Tag": "MILF",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "MitchAUS": {
+    "Clan": "Man I Love Funky",
+    "Clan Tag": "MILF",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "rogueAUS": {
+    "Clan": "Man I Love Funky",
+    "Clan Tag": "MILF",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Saki": {
+    "Clan": "Man I Love Funky",
+    "Clan Tag": "MILF",
+    "Print": 0,
+    "Alt Name": "jup"
+  },
+  "Star": {
+    "Clan": "Man I Love Funky",
+    "Clan Tag": "MILF",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Trent": {
+    "Clan": "Man I Love Funky",
+    "Clan Tag": "MILF",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Zakziko": {
+    "Clan": "Man I Love Funky",
+    "Clan Tag": "MILF",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Zev": {
+    "Clan": "Man I Love Funky",
+    "Clan Tag": "MILF",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Jake": {
+    "Clan": "Mate-Mate",
+    "Clan Tag": "Mate",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Kenn": {
+    "Clan": "Mate-Mate",
+    "Clan Tag": "Mate",
+    "Print": 0,
+    "Alt Name": "Fixi"
+  },
+  "LiamNL": {
+    "Clan": "Mate-Mate",
+    "Clan Tag": "Mate",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "mate0089": {
+    "Clan": "Mate-Mate",
+    "Clan Tag": "Mate",
+    "Print": 0,
+    "Alt Name": "mate0089"
+  },
+  "Raz": {
+    "Clan": "Mate-Mate",
+    "Clan Tag": "Mate",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Ruben": {
+    "Clan": "Mate-Mate",
+    "Clan Tag": "Mate",
+    "Print": 0,
+    "Alt Name": "RubenNL"
+  },
+  "Simeon": {
+    "Clan": "Mate-Mate",
+    "Clan Tag": "Mate",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Theodor": {
+    "Clan": "Mate-Mate",
+    "Clan Tag": "Mate",
+    "Print": 1,
+    "Alt Name": "Theo"
+  },
+  "Toddy": {
+    "Clan": "Mate-Mate",
+    "Clan Tag": "Mate",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Colvin": {
+    "Clan": "Megavolt",
+    "Clan Tag": "MV",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Fernandez": {
+    "Clan": "Megavolt",
+    "Clan Tag": "MV",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Horse": {
+    "Clan": "Megavolt",
+    "Clan Tag": "MV",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "JackCAN": {
+    "Clan": "Megavolt",
+    "Clan Tag": "MV",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Jaggy": {
+    "Clan": "Megavolt",
+    "Clan Tag": "MV",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Jck": {
+    "Clan": "Megavolt",
+    "Clan Tag": "MV",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Kyle": {
+    "Clan": "Megavolt",
+    "Clan Tag": "MV",
+    "Print": 0,
+    "Alt Name": "KyleAUS"
+  },
+  "Lifeboat": {
+    "Clan": "Megavolt",
+    "Clan Tag": "MV",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Nuke": {
+    "Clan": "Megavolt",
+    "Clan Tag": "MV",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Scept": {
+    "Clan": "Megavolt",
+    "Clan Tag": "MV",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Yax": {
+    "Clan": "Megavolt",
+    "Clan Tag": "MV",
+    "Print": 0,
+    "Alt Name": "Yayori"
+  },
+  "Ardit": {
+    "Clan": "Melody",
+    "Clan Tag": "«♪»",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Charge": {
+    "Clan": "Melody",
+    "Clan Tag": "«♪»",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Cross": {
+    "Clan": "Melody",
+    "Clan Tag": "«♪»",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Fay": {
+    "Clan": "Melody",
+    "Clan Tag": "«♪»",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Kenny": {
+    "Clan": "Melody",
+    "Clan Tag": "«♪»",
+    "Print": 0,
+    "Alt Name": "KennyM"
+  },
+  "Kiralte": {
+    "Clan": "Melody",
+    "Clan Tag": "«♪»",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Marc": {
+    "Clan": "Melody",
+    "Clan Tag": "«♪»",
+    "Print": 0,
+    "Alt Name": "Oshizl"
+  },
+  "Razz": {
+    "Clan": "Melody",
+    "Clan Tag": "«♪»",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Salz": {
+    "Clan": "Melody",
+    "Clan Tag": "«♪»",
+    "Print": 0,
+    "Alt Name": "xPBestx"
+  },
+  "Solem": {
+    "Clan": "Melody",
+    "Clan Tag": "«♪»",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Vance": {
+    "Clan": "Melody",
+    "Clan Tag": "«♪»",
+    "Print": 0,
+    "Alt Name": "Precision"
+  },
+  "Barney": {
+    "Clan": "Metro Wipeout",
+    "Clan Tag": "Mw",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Boodog9": {
+    "Clan": "Metro Wipeout",
+    "Clan Tag": "Mw",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Chéron": {
+    "Clan": "Metro Wipeout",
+    "Clan Tag": "Mw",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Fox": {
+    "Clan": "Metro Wipeout",
+    "Clan Tag": "Mw",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Jazz": {
+    "Clan": "Metro Wipeout",
+    "Clan Tag": "Mw",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Leops": {
+    "Clan": "Metro Wipeout",
+    "Clan Tag": "Mw",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Maisie": {
+    "Clan": "Metro Wipeout",
+    "Clan Tag": "Mw",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Neuro": {
+    "Clan": "Metro Wipeout",
+    "Clan Tag": "Mw",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Quinn": {
+    "Clan": "Metro Wipeout",
+    "Clan Tag": "Mw",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Roy": {
+    "Clan": "Metro Wipeout",
+    "Clan Tag": "Mw",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Sully": {
+    "Clan": "Metro Wipeout",
+    "Clan Tag": "Mw",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Xander": {
+    "Clan": "Metro Wipeout",
+    "Clan Tag": "Mw",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Bry": {
+    "Clan": "Monolith",
+    "Clan Tag": "mono",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Dams": {
+    "Clan": "Monolith",
+    "Clan Tag": "mono",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Elbling": {
+    "Clan": "Monolith",
+    "Clan Tag": "mono",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Houz": {
+    "Clan": "Monolith",
+    "Clan Tag": "mono",
+    "Print": 0,
+    "Alt Name": "Houzamijagr"
+  },
+  "Hunterr": {
+    "Clan": "Monolith",
+    "Clan Tag": "mono",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Jax": {
+    "Clan": "Monolith",
+    "Clan Tag": "mono",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Joeyjas": {
+    "Clan": "Monolith",
+    "Clan Tag": "mono",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "MrCactus": {
+    "Clan": "Monolith",
+    "Clan Tag": "mono",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "MylesUS": {
+    "Clan": "Monolith",
+    "Clan Tag": "mono",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Snowy": {
+    "Clan": "Monolith",
+    "Clan Tag": "mono",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Todd": {
+    "Clan": "Monolith",
+    "Clan Tag": "mono",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Triclops": {
+    "Clan": "Monolith",
+    "Clan Tag": "mono",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "AlexITA": {
+    "Clan": "Mount Olympus",
+    "Clan Tag": "Mt.",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Chi": {
+    "Clan": "Mount Olympus",
+    "Clan Tag": "Mt.",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Deano": {
+    "Clan": "Mount Olympus",
+    "Clan Tag": "Mt.",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Finite": {
+    "Clan": "Mount Olympus",
+    "Clan Tag": "Mt.",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Fred": {
+    "Clan": "Mount Olympus",
+    "Clan Tag": "Mt.",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Kevin": {
+    "Clan": "Mount Olympus",
+    "Clan Tag": "Mt.",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Lonie": {
+    "Clan": "Mount Olympus",
+    "Clan Tag": "Mt.",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Lucid": {
+    "Clan": "Mount Olympus",
+    "Clan Tag": "Mt.",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Markus": {
+    "Clan": "Mount Olympus",
+    "Clan Tag": "Mt.",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Sayn": {
+    "Clan": "Mount Olympus",
+    "Clan Tag": "Mt.",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Subaza": {
+    "Clan": "Mount Olympus",
+    "Clan Tag": "Mt.",
+    "Print": 0,
+    "Alt Name": "Manuellsen"
+  },
+  "Cormac": {
+    "Clan": "MY13",
+    "Clan Tag": "MY13",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Dragonfly": {
+    "Clan": "MY13",
+    "Clan Tag": "MY13",
+    "Print": 1,
+    "Alt Name": "Dragonfly99"
+  },
+  "Fresh": {
+    "Clan": "MY13",
+    "Clan Tag": "MY13",
+    "Print": 0,
+    "Alt Name": "FreshZ"
+  },
+  "Ice": {
+    "Clan": "MY13",
+    "Clan Tag": "MY13",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Kira": {
+    "Clan": "MY13",
+    "Clan Tag": "MY13",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Kjeld": {
+    "Clan": "MY13",
+    "Clan Tag": "MY13",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Lachlan": {
+    "Clan": "MY13",
+    "Clan Tag": "MY13",
+    "Print": 1,
+    "Alt Name": "Kleen"
+  },
+  "Lifted": {
+    "Clan": "MY13",
+    "Clan Tag": "MY13",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Magnati": {
+    "Clan": "MY13",
+    "Clan Tag": "MY13",
+    "Print": 1,
+    "Alt Name": "Alex"
+  },
+  "Weexy": {
+    "Clan": "MY13",
+    "Clan Tag": "MY13",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Zexous": {
+    "Clan": "MY13",
+    "Clan Tag": "MY13",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "AaronSCO": {
+    "Clan": "MY14",
+    "Clan Tag": "MY14",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Azn": {
+    "Clan": "MY14",
+    "Clan Tag": "MY14",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Azuki": {
+    "Clan": "MY14",
+    "Clan Tag": "MY14",
+    "Print": 0,
+    "Alt Name": "Kuroka"
+  },
+  "Boshi": {
+    "Clan": "MY14",
+    "Clan Tag": "MY14",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Doge": {
+    "Clan": "MY14",
+    "Clan Tag": "MY14",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Juicy": {
+    "Clan": "MY14",
+    "Clan Tag": "MY14",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Kona": {
+    "Clan": "MY14",
+    "Clan Tag": "MY14",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "NoahsArk": {
+    "Clan": "MY14",
+    "Clan Tag": "MY14",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "oj": {
+    "Clan": "MY14",
+    "Clan Tag": "MY14",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Raptor": {
+    "Clan": "MY14",
+    "Clan Tag": "MY14",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Sardine": {
+    "Clan": "MY14",
+    "Clan Tag": "MY14",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Tigerwoods": {
+    "Clan": "MY14",
+    "Clan Tag": "MY14",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Akira": {
+    "Clan": "Northwest",
+    "Clan Tag": "Nω",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Ardux": {
+    "Clan": "Northwest",
+    "Clan Tag": "Nω",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Beau": {
+    "Clan": "Northwest",
+    "Clan Tag": "Nω",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Deloicious": {
+    "Clan": "Northwest",
+    "Clan Tag": "Nω",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Georgio": {
+    "Clan": "Northwest",
+    "Clan Tag": "Nω",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Khris": {
+    "Clan": "Northwest",
+    "Clan Tag": "Nω",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Maddy": {
+    "Clan": "Northwest",
+    "Clan Tag": "Nω",
+    "Print": 0,
+    "Alt Name": "Madison"
+  },
+  "Murray": {
+    "Clan": "Northwest",
+    "Clan Tag": "Nω",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Nicki": {
+    "Clan": "Northwest",
+    "Clan Tag": "Nω",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Sparkster": {
+    "Clan": "Northwest",
+    "Clan Tag": "Nω",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Test": {
+    "Clan": "Northwest",
+    "Clan Tag": "Nω",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Brody": {
+    "Clan": "perma jc",
+    "Clan Tag": "jc",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Declan": {
+    "Clan": "perma jc",
+    "Clan Tag": "jc",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Fear": {
+    "Clan": "perma jc",
+    "Clan Tag": "jc",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Fire": {
+    "Clan": "perma jc",
+    "Clan Tag": "jc",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "KasperUS": {
+    "Clan": "perma jc",
+    "Clan Tag": "jc",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Paul": {
+    "Clan": "perma jc",
+    "Clan Tag": "jc",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Sal": {
+    "Clan": "perma jc",
+    "Clan Tag": "jc",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Skin": {
+    "Clan": "perma jc",
+    "Clan Tag": "jc",
+    "Print": 0,
+    "Alt Name": "JoshNZ"
+  },
+  "Thunda": {
+    "Clan": "perma jc",
+    "Clan Tag": "jc",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Torp": {
+    "Clan": "perma jc",
+    "Clan Tag": "jc",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Airko": {
+    "Clan": "Race 12",
+    "Clan Tag": "R12",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "AstroBooker": {
+    "Clan": "Race 12",
+    "Clan Tag": "R12",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Balou": {
+    "Clan": "Race 12",
+    "Clan Tag": "R12",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Istior": {
+    "Clan": "Race 12",
+    "Clan Tag": "R12",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Logia": {
+    "Clan": "Race 12",
+    "Clan Tag": "R12",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Master67x": {
+    "Clan": "Race 12",
+    "Clan Tag": "R12",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Nougat": {
+    "Clan": "Race 12",
+    "Clan Tag": "R12",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Slime": {
+    "Clan": "Race 12",
+    "Clan Tag": "R12",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "SnoopyFR": {
+    "Clan": "Race 12",
+    "Clan Tag": "R12",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Spike": {
+    "Clan": "Race 12",
+    "Clan Tag": "R12",
+    "Print": 0,
+    "Alt Name": "SpikeNL"
+  },
+  "Supreme": {
+    "Clan": "Race 12",
+    "Clan Tag": "R12",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "GalDen": {
+    "Clan": "Race 13",
+    "Clan Tag": "R13",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Gamma": {
+    "Clan": "Race 13",
+    "Clan Tag": "R13",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Jinays": {
+    "Clan": "Race 13",
+    "Clan Tag": "R13",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Kaizox": {
+    "Clan": "Race 13",
+    "Clan Tag": "R13",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "laToiture": {
+    "Clan": "Race 13",
+    "Clan Tag": "R13",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Ouloul": {
+    "Clan": "Race 13",
+    "Clan Tag": "R13",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Password": {
+    "Clan": "Race 13",
+    "Clan Tag": "R13",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "VLok": {
+    "Clan": "Race 13",
+    "Clan Tag": "R13",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Yoyoto": {
+    "Clan": "Race 13",
+    "Clan Tag": "R13",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Yuri": {
+    "Clan": "Race 13",
+    "Clan Tag": "R13",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Zowpex": {
+    "Clan": "Race 13",
+    "Clan Tag": "R13",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Bernhard": {
+    "Clan": "Resurrection",
+    "Clan Tag": "RS",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Caleb": {
+    "Clan": "Resurrection",
+    "Clan Tag": "RS",
+    "Print": 0,
+    "Alt Name": "Guy"
+  },
+  "DaNii": {
+    "Clan": "Resurrection",
+    "Clan Tag": "RS",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Erupt": {
+    "Clan": "Resurrection",
+    "Clan Tag": "RS",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Goofy": {
+    "Clan": "Resurrection",
+    "Clan Tag": "RS",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Gray": {
+    "Clan": "Resurrection",
+    "Clan Tag": "RS",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Lumi": {
+    "Clan": "Resurrection",
+    "Clan Tag": "RS",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Noriken": {
+    "Clan": "Resurrection",
+    "Clan Tag": "RS",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Skylar": {
+    "Clan": "Resurrection",
+    "Clan Tag": "RS",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Spade": {
+    "Clan": "Resurrection",
+    "Clan Tag": "RS",
+    "Print": 2,
+    "Alt Name": ""
+  },
+  "Stripe": {
+    "Clan": "Resurrection",
+    "Clan Tag": "RS",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Zynno": {
+    "Clan": "Resurrection",
+    "Clan Tag": "RS",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Agger": {
+    "Clan": "Shadow Team",
+    "Clan Tag": "ST",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Akmeaf": {
+    "Clan": "Shadow Team",
+    "Clan Tag": "ST",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Francis": {
+    "Clan": "Shadow Team",
+    "Clan Tag": "ST",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Gumi": {
+    "Clan": "Shadow Team",
+    "Clan Tag": "ST",
+    "Print": 1,
+    "Alt Name": "Demoxz"
+  },
+  "Jesús": {
+    "Clan": "Shadow Team",
+    "Clan Tag": "ST",
+    "Print": 0,
+    "Alt Name": "JesúsST"
+  },
+  "JorgeST": {
+    "Clan": "Shadow Team",
+    "Clan Tag": "ST",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Kyu": {
+    "Clan": "Shadow Team",
+    "Clan Tag": "ST",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Monster": {
+    "Clan": "Shadow Team",
+    "Clan Tag": "ST",
+    "Print": 0,
+    "Alt Name": "MonsterST"
+  },
+  "Nlaw": {
+    "Clan": "Shadow Team",
+    "Clan Tag": "ST",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Saru": {
+    "Clan": "Shadow Team",
+    "Clan Tag": "ST",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Bobby": {
+    "Clan": "Superbia",
+    "Clan Tag": "Se",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Edison": {
+    "Clan": "Superbia",
+    "Clan Tag": "Se",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Feysal": {
+    "Clan": "Superbia",
+    "Clan Tag": "Se",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Maq": {
+    "Clan": "Superbia",
+    "Clan Tag": "Se",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Revan": {
+    "Clan": "Superbia",
+    "Clan Tag": "Se",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Revise": {
+    "Clan": "Superbia",
+    "Clan Tag": "Se",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Serena": {
+    "Clan": "Superbia",
+    "Clan Tag": "Se",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Shawn": {
+    "Clan": "Superbia",
+    "Clan Tag": "Se",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Starstrike": {
+    "Clan": "Superbia",
+    "Clan Tag": "Se",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Vincent B": {
+    "Clan": "Superbia",
+    "Clan Tag": "Se",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Akiyo": {
+    "Clan": "Team GUN",
+    "Clan Tag": "GUN",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Baore": {
+    "Clan": "Team GUN",
+    "Clan Tag": "GUN",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Cobra": {
+    "Clan": "Team GUN",
+    "Clan Tag": "GUN",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Dalkir": {
+    "Clan": "Team GUN",
+    "Clan Tag": "GUN",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Fatal": {
+    "Clan": "Team GUN",
+    "Clan Tag": "GUN",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "k1ng": {
+    "Clan": "Team GUN",
+    "Clan Tag": "GUN",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Kroma": {
+    "Clan": "Team GUN",
+    "Clan Tag": "GUN",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Nico": {
+    "Clan": "Team GUN",
+    "Clan Tag": "GUN",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Sasa": {
+    "Clan": "Team GUN",
+    "Clan Tag": "GUN",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Shaka": {
+    "Clan": "Team GUN",
+    "Clan Tag": "GUN",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Space": {
+    "Clan": "Team GUN",
+    "Clan Tag": "GUN",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Zenon": {
+    "Clan": "Team GUN",
+    "Clan Tag": "GUN",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Benito": {
+    "Clan": "The Nice Guys",
+    "Clan Tag": "TNG",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Brisk": {
+    "Clan": "The Nice Guys",
+    "Clan Tag": "TNG",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "ConnorUS": {
+    "Clan": "The Nice Guys",
+    "Clan Tag": "TNG",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Dino": {
+    "Clan": "The Nice Guys",
+    "Clan Tag": "TNG",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Kaizo": {
+    "Clan": "The Nice Guys",
+    "Clan Tag": "TNG",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Luk3": {
+    "Clan": "The Nice Guys",
+    "Clan Tag": "TNG",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Mookie": {
+    "Clan": "The Nice Guys",
+    "Clan Tag": "TNG",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Noah Cove": {
+    "Clan": "The Nice Guys",
+    "Clan Tag": "TNG",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Optilizer": {
+    "Clan": "The Nice Guys",
+    "Clan Tag": "TNG",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Parpie": {
+    "Clan": "The Nice Guys",
+    "Clan Tag": "TNG",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Rey": {
+    "Clan": "The Nice Guys",
+    "Clan Tag": "TNG",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "yuyu": {
+    "Clan": "The Nice Guys",
+    "Clan Tag": "TNG",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Adaze": {
+    "Clan": "Tunes Horizon",
+    "Clan Tag": "Hz♪",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "dhavz": {
+    "Clan": "Tunes Horizon",
+    "Clan Tag": "Hz♪",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Empex": {
+    "Clan": "Tunes Horizon",
+    "Clan Tag": "Hz♪",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "End": {
+    "Clan": "Tunes Horizon",
+    "Clan Tag": "Hz♪",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Jonny": {
+    "Clan": "Tunes Horizon",
+    "Clan Tag": "Hz♪",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "JoshCAN": {
+    "Clan": "Tunes Horizon",
+    "Clan Tag": "Hz♪",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Lemmy": {
+    "Clan": "Tunes Horizon",
+    "Clan Tag": "Hz♪",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "MargLBN": {
+    "Clan": "Tunes Horizon",
+    "Clan Tag": "Hz♪",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Rogue": {
+    "Clan": "Tunes Horizon",
+    "Clan Tag": "Hz♪",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Roshi": {
+    "Clan": "Tunes Horizon",
+    "Clan Tag": "Hz♪",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "WalterLBN": {
+    "Clan": "Tunes Horizon",
+    "Clan Tag": "Hz♪",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Bort": {
+    "Clan": "Valorous",
+    "Clan Tag": "vrs",
+    "Print": 0,
+    "Alt Name": "Robert"
+  },
+  "Chris": {
+    "Clan": "Valorous",
+    "Clan Tag": "vrs",
+    "Print": 1,
+    "Alt Name": "crystallish"
+  },
+  "Daze": {
+    "Clan": "Valorous",
+    "Clan Tag": "vrs",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Garry": {
+    "Clan": "Valorous",
+    "Clan Tag": "vrs",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Jesus": {
+    "Clan": "Valorous",
+    "Clan Tag": "vrs",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Jip": {
+    "Clan": "Valorous",
+    "Clan Tag": "vrs",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Koven": {
+    "Clan": "Valorous",
+    "Clan Tag": "vrs",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Orange": {
+    "Clan": "Valorous",
+    "Clan Tag": "vrs",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Rahul": {
+    "Clan": "Valorous",
+    "Clan Tag": "vrs",
+    "Print": 0,
+    "Alt Name": "Noob"
+  },
+  "Solo": {
+    "Clan": "Valorous",
+    "Clan Tag": "vrs",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Björn": {
+    "Clan": "Versatile",
+    "Clan Tag": "V$",
+    "Print": 0,
+    "Alt Name": "Bjoern"
+  },
+  "CJPetey": {
+    "Clan": "Versatile",
+    "Clan Tag": "V$",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Elana": {
+    "Clan": "Versatile",
+    "Clan Tag": "V$",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Fuadius": {
+    "Clan": "Versatile",
+    "Clan Tag": "V$",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Joey": {
+    "Clan": "Versatile",
+    "Clan Tag": "V$",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Josue": {
+    "Clan": "Versatile",
+    "Clan Tag": "V$",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Lily": {
+    "Clan": "Versatile",
+    "Clan Tag": "V$",
+    "Print": 0,
+    "Alt Name": "LilyUK"
+  },
+  "Miles": {
+    "Clan": "Versatile",
+    "Clan Tag": "V$",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Rick": {
+    "Clan": "Versatile",
+    "Clan Tag": "V$",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Rorsburg": {
+    "Clan": "Versatile",
+    "Clan Tag": "V$",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Wal00gi": {
+    "Clan": "Versatile",
+    "Clan Tag": "V$",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "z joe": {
+    "Clan": "Versatile",
+    "Clan Tag": "V$",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Camelot": {
+    "Clan": "WollywogZ",
+    "Clan Tag": "ωZ",
+    "Print": 0,
+    "Alt Name": "Fiskaren"
+  },
+  "Eirik": {
+    "Clan": "WollywogZ",
+    "Clan Tag": "ωZ",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "haLR": {
+    "Clan": "WollywogZ",
+    "Clan Tag": "ωZ",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Hawk": {
+    "Clan": "WollywogZ",
+    "Clan Tag": "ωZ",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Iris": {
+    "Clan": "WollywogZ",
+    "Clan Tag": "ωZ",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Kingler": {
+    "Clan": "WollywogZ",
+    "Clan Tag": "ωZ",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Knee": {
+    "Clan": "WollywogZ",
+    "Clan Tag": "ωZ",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Larry": {
+    "Clan": "WollywogZ",
+    "Clan Tag": "ωZ",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Spec": {
+    "Clan": "WollywogZ",
+    "Clan Tag": "ωZ",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "TK": {
+    "Clan": "WollywogZ",
+    "Clan Tag": "ωZ",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Valence": {
+    "Clan": "WollywogZ",
+    "Clan Tag": "ωZ",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Wally": {
+    "Clan": "WollywogZ",
+    "Clan Tag": "ωZ",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Josh": {
+    "Clan": "Yakuza",
+    "Clan Tag": "Yz",
+    "Print": 0,
+    "Alt Name": "Joshh"
+  },
+  "Leo": {
+    "Clan": "Yakuza",
+    "Clan Tag": "Yz",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Mera": {
+    "Clan": "Yakuza",
+    "Clan Tag": "Yz",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "NathanP": {
+    "Clan": "Yakuza",
+    "Clan Tag": "Yz",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Pat1": {
+    "Clan": "Yakuza",
+    "Clan Tag": "Yz",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Qatar": {
+    "Clan": "Yakuza",
+    "Clan Tag": "Yz",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Ryder": {
+    "Clan": "Yakuza",
+    "Clan Tag": "Yz",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Vicious": {
+    "Clan": "Yakuza",
+    "Clan Tag": "Yz",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Virazz": {
+    "Clan": "Yakuza",
+    "Clan Tag": "Yz",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Xavier": {
+    "Clan": "Yakuza",
+    "Clan Tag": "Yz",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Zalm": {
+    "Clan": "Yakuza",
+    "Clan Tag": "Yz",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Runo": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Remi": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Leodot": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Rush": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Niko": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 1,
+    "Alt Name": ""
+  },
+  "Modest": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "JP": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": "Epix"
+  },
+  "Fruitz": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Emperor": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 2,
+    "Alt Name": ""
+  },
+  "S4MUX": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Andy": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 2,
+    "Alt Name": ""
+  },
+  "BenjiP": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Mossan": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  }
+}

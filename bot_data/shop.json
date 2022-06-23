@@ -1,0 +1,27 @@
+{
+    "bg_gray": [
+      "Gray Background",
+      50,
+      "Use this to give one of your cards a new background."
+    ],
+    "bg_green": [
+      "Green Background",
+      50,
+      "Use this to give one of your cards a new background."
+    ],
+    "bg_pink": [
+      "Pink Background",
+      50,
+      "Use this to give one of your cards a new background."
+    ],
+    "bg_pride": [
+      "Pride Background",
+      50,
+      "Use this to give one of your cards a new background."
+    ],
+    "bg_skyblue": [
+      "Sky Blue Background",
+      50,
+      "Use this to give one of your cards a new background."
+    ]
+  }

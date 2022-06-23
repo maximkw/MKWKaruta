@@ -27,7 +27,7 @@ json.dumps(accounts, ensure_ascii=False)
 json.dumps(itemshop, ensure_ascii=False)
 json.dumps(fcs, ensure_ascii=False)
 
-client = commands.Bot(command_prefix=['m','M'],help_command=None, case_insensitive=True)
+client = commands.Bot(command_prefix=['m','M'],help_command=None, case_insensitive=True) #Using m/M for now since the original Karuta bot uses a letter
 
 @client.event
 async def on_ready():
@@ -1065,10 +1065,10 @@ async def getfcs(ctx):
     missingfcs = []
     for name in json:
         imgname = name + ".png"
-        if not os.path.exists(imgname):
+        if not os.path.exists(imgname) and prints[name]["Tag"] != "F/A":
             try:
                 code = fcs[name.lower()]["fc"]
-                lines.append(name + " " + code + "\n")
+                lines.append(prints[name]["Tag"] + " " + name + " " + code + "\n")
             except:
                 lines.append(name + "\n")
                 missingfcs.append(name)
@@ -1120,8 +1120,7 @@ async def images(ctx):
     msg = str(len(lines)) + " missing mii pictures\n"
     for line in lines:
         msg += line
-    await ctx.send(msg[0:1999])
-    await ctx.send(msg[1999:])
+    await ctx.send(msg)
 
 
 
