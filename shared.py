@@ -55,12 +55,13 @@ for object in [prints, accounts]:
   json.dumps(object, ensure_ascii=False)
 
 class ImageFunctions:
-    def write_image(background,frame,clan_tag,card_id,card_name,print_number,overlay):
+    def write_image(background,frame,clan_tag,card_id,card_name,print_number,overlay,edition_number):
 
         mii = ImageFunctions.render_mii(card_name)
         img = Image.new("RGBA", background.size,0)
         img.paste(background)
-        img.paste(mii, (0,86), mii)
+        mii = mii.resize((448, 448))
+        img.paste(mii, (32,150), mii)
         img.paste(frame.convert("RGBA"), (0,0), frame.convert("RGBA"))
         draw = ImageDraw.Draw(img)
 
@@ -70,17 +71,19 @@ class ImageFunctions:
         t1_width, t1_height = draw.textsize(clan_tag, font1) # clan tag
         t2_width, t2_height = draw.textsize(card_id, font2) # id
         t3_width, t3_height = draw.textsize(card_name, font1) # name
-        t4_width, t4_height = draw.textsize(print_number, font2) # print
+        t4_width, t4_height = draw.textsize(f"{print_number} ", font2) # print
 
         p1 = ((w-t1_width)/2,605) # clan tag
         p2 = ((w-t2_width)/2,74) # id
         p3 = ((w-t3_width)/2,112) # name
-        p4 = ((w-t4_width)/2,670) # print
+        p4 = ((w/2)-t4_width,670) # print
+        p5 = ((w/2)-3,670) # edition
 
         draw.text(p1, clan_tag, fill=(0,0,0), font=font1) # clan tag
         draw.text(p2, card_id, fill=(255,255,255), font=font2) # id
         draw.text(p3, card_name, fill=(0,0,0), font=font1) # name
-        draw.text(p4, print_number, fill=(255,255,255), font=font2) # print
+        draw.text(p4, print_number, fill=(255,255,92), font=font2) # print
+        draw.text(p5, f"·{edition_number}", fill=(255,255,255), font=font2) # print
         img.paste(overlay.convert("RGBA"), (0,0), overlay.convert("RGBA"))
         return img
 
@@ -113,16 +116,31 @@ class ImageFunctions:
             x += i.size[0]
         return im
 
+    def render_lineup(images):
+        background = Image.open(f'{IMAGE_DIR}lu_background.png')
+        img = Image.new("RGBA", background.size,0)
+        img.paste(background)
+        x = 32
+        for i in images:
+            i = i.resize((256, 384))
+            img.paste(i, (x, 32))
+            x += i.size[0] + 32
+        return img
+
     def generate_card(person):
-        ##["id", "name", "clan", print, "bg", "frame", quality, tag, albums]
+        ##["id", "name", "clan", print, "bg", "frame", quality, tag, albums, edition]
         id = ImageFunctions.new_card_id()
         clan_tag = prints[person]["Clan Tag"]
         print_number = prints[person]["Print"] + 1
         background_name = "bg_gray"
-        frame_name = "ed1"
+        if random.randrange(1,100) < 96:
+            edition = 1
+            frame_name = "ed1"
+        else:
+            edition = 2
+            frame_name = "ed2"
         quality = 4
-
-        card = [id, person, clan_tag, print_number, background_name, frame_name, quality, None, []]
+        card = [id, person, clan_tag, print_number, background_name, frame_name, quality, None, [], edition]
         return card
 
     def render_mii(card_name):
@@ -139,18 +157,24 @@ class ImageFunctions:
         return image_name
 
     def render_card(card):
-        ##["id", "name", "clan", print, "bg", "frame", quality]
+        ##["id", "name", "clan", print, "bg", "frame", quality, tag, albums, edition]
         background = Image.open(f'{IMAGE_DIR}{card[4]}.png')
         frame = Image.open(f'{IMAGE_DIR}{card[5]}.png')
         card_id,card_name,clan_tag,card_number = card[0:4]
-
         overlay = Image.open(f'{IMAGE_DIR}quality_{str(card[6])}.png')
-        card=ImageFunctions.write_image(background,frame,clan_tag,card_id,card_name,str(card_number),overlay)
+        edition = card[9]
+        card=ImageFunctions.write_image(background,frame,clan_tag,card_id,card_name,str(card_number),overlay,str(edition))
         return card
 
     def save_card(card):
         im = ImageFunctions.render_card(card)
         image_name = 'viewcard.png'
+        im.save(image_name)
+        return image_name
+
+    def save_lineup(card):
+        im = ImageFunctions.render_lineup(card)
+        image_name = 'viewlu.png'
         im.save(image_name)
         return image_name
 

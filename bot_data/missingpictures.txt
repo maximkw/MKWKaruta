@@ -1,4 +1,4 @@
-Missing Entries at Thu Jun 23 17:42:05 2022
+Missing Entries at Sat Jun 25 22:56:46 2022
 %6ab27* Jyran
 5G SCAR
 7κ Blounard
@@ -22,8 +22,6 @@ Nω Georgio
 R12 AstroBooker
 R13 GalDen
 RS Bernhard
-RS Erupt
-RS Zynno
 TNG Parpie
 Yz Josh
 Yz Pat1

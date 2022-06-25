@@ -343,7 +343,8 @@ async def collection(ctx, *words):
     conditions = emojis["Conditions"]
 
     for card in cardsfound[0:min(10,len(cardsfound))]:
-        msg2 += f"{tags[card[7]]} ``{card[0]}`` · ``{conditions[card[6]]}`` · ``#{card[3]}`` · {card[2]} · **{card[1]}**\n"
+        # card_id · quality · print_number · edition · clan · name
+        msg2 += f"{tags[card[7]]} ``{card[0]}`` · ``{conditions[card[6]]}`` · ``#{card[3]}`` · ``◈{card[9]}`` · {card[2]} · **{card[1]}**\n"
 
     embed=discord.Embed(title="Card Collection", description=msg1+msg2, color=0xFFFFFF)
     embedmessage = await ctx.send(embed=embed)
@@ -374,8 +375,8 @@ async def collection(ctx, *words):
             else:
                 start = start + 10
         msg2 = f"Showing cards {start+1} - {start + 10}\n\n"
-        for card in cardsfound[start:start + 10]:
-            msg2 += f"{tags[card[7]]} ``{card[0]}`` · ``{conditions[card[6]]}`` · ``#{card[3]}`` · {card[2]} · **{card[1]}**\n"
+        # card_id · quality · print_number · edition · clan · name
+        msg2 += f"``{tags[card[7]]} {card[0]}`` · ``{conditions[card[6]]}`` · ``#{card[3]}`` · ``◈{card[9]}`` · {card[2]} · **{card[1]}**\n"
         embed=discord.Embed(title="Card Collection", description=msg1+msg2, color=0xFFFFFF)
         await embedmessage.edit(embed=embed)
 
@@ -479,36 +480,26 @@ async def burn(ctx, id=None):
         await ctx.send(mention_author + " Error: No cards found in your MKWKaruta")
         return
     quality_burnvalues = [2, 5, 10, 20, 40]
+    edition_burnvalues = [0, 10, 25]
+    burn_card = None
     if id==None:
-        card = accounts[str_author_id][3][-1]
-        id = card[0]
-        image_file = shared.ImageFunctions.save_card(card)
-        file = discord.File(image_file)
-        burnvalue = quality_burnvalues[card[6]]
-        if card[3] < 100:
-            burnvalue += 10
-            if card[3] < 10:
-                burnvalue += 10
+        burn_card = accounts[str_author_id][3][-1]
+        id = burn_card[0]
     else:
         if not len(id)==6:
             await ctx.send(mention_author + "Error: this is an invalid 6 letter card ID")
             return
-        cardfound = False
         for card in accounts[str_author_id][3]:
             if card[0] == id:
-                cardfound = True
-                image_file = shared.ImageFunctions.save_card(card)
-                file = discord.File(image_file)
-                burnvalue = quality_burnvalues[card[6]]
-                if card[3] < 100:
-                    burnvalue += 10
-                    if card[3] < 10:
-                        burnvalue += 10
-                break
-        if cardfound == False:
-            await ctx.send(mention_author + " Error: you do not own " + '``' + id + '``')
-            return
-    msg = mention_author + ", by burning ``" + id + "`` you will receive:\n\n" + '\N{MONEY WITH WINGS}: **' + str(burnvalue) + '** Dollas\n'
+                burn_card = card
+                id = card[0]
+    if burn_card == None:
+        await ctx.send(mention_author + " Error: you do not own " + '``' + id + '``')
+        return
+    image_file = shared.ImageFunctions.save_card(burn_card)
+    file = discord.File(image_file)
+    burnvalue = quality_burnvalues[burn_card[6]] + edition_burnvalues[burn_card[9]]
+    msg = f"{mention_author}, by burning ``{id}`` you will receive:\n\n\N{MONEY WITH WINGS}: **{burnvalue}** Dollas"
     embed=discord.Embed(title="Burn Card", description=msg, color=0xFFFFFF)
     embed.set_thumbnail(url="attachment://" + image_file)
     options = [emojis["Red X"],emojis["Fire"]]
@@ -522,7 +513,7 @@ async def burn(ctx, id=None):
     except asyncio.TimeoutError:
         return
     if reaction.emoji == emojis["Red X"]:
-        msg = mention_author + ", card burning for ``" + id + "`` has been canceled."
+        msg = f"{mention_author}, card burning for ``{id}`` has been canceled."
         embed=discord.Embed(title="Burn Card", description=msg, color=0xFF0000)
         embed.set_thumbnail(url="attachment://" + image_file)
         await embedmessage.edit(embed=embed)
@@ -531,9 +522,13 @@ async def burn(ctx, id=None):
             if card[0] == id:
                 accounts[str_author_id][5] += burnvalue
                 accounts[str_author_id][3].remove(card)
-                break
-        HelperFunctions.dump_accounts()
-        msg = mention_author + ", ``" + id + "`` has been successfully burned. \n You have recieved:\n\n" + '\N{MONEY WITH WINGS}: **' + str(burnvalue) + '** Dollas\n'
+                HelperFunctions.dump_accounts()
+                msg = f"{mention_author}, ``{id}`` has been successfully burned. \n You have recieved:\n\n\N{MONEY WITH WINGS}: **{burnvalue}** Dollas\n"
+                embed=discord.Embed(title="Burn Card", description=msg, color=0x00FF2F)
+                embed.set_thumbnail(url="attachment://" + image_file)
+                await embedmessage.edit(embed=embed)
+                return
+        msg = f"{mention_author} Error: ``{id}`` was not found."
         embed=discord.Embed(title="Burn Card", description=msg, color=0x00FF2F)
         embed.set_thumbnail(url="attachment://" + image_file)
         await embedmessage.edit(embed=embed)
@@ -664,7 +659,8 @@ async def view(ctx, id=None):
     if card == None:
         await ctx.send(mention_author + " Error: Card with id ``" + id + "`` does not exist.")
         return
-    msg = '``' + card[0] + '`` · ``' + conditions[card[6]] + '`` · ``#' + str(card[3]) + '`` · ' + card[2] + ' · **' + card[1] + '**'
+    # card_id · quality · print_number · edition · clan · name
+    msg = f"``{card[0]}`` · ``{conditions[card[6]]}`` · ``#{card[3]}`` · ``◈{card[9]}`` · {card[2]} · **{card[1]}**"
     desc = "Card owned by " + mention_author + "\n\n" + msg
     embed = discord.Embed(title="View Card", description=desc, color=0xFFFFFF)
     image_file = shared.ImageFunctions.save_card(card)
@@ -880,12 +876,15 @@ async def tag(ctx, tag, *cards):
     if not str_author_id in accounts.keys():
         await ctx.send(mention_author + " Error: Your MKWKaruta account was not found. Drop or grab a card to start!")
         return
-    if tag == None or card_ids == []:
+    if tag == None:
         await ctx.send(mention_author + ", you must specify both a tag and card(s) you wish to tag.")
         return
     if len(accounts[str_author_id][3]) < 1:
         await ctx.send(mention_author + " Error: No cards found in your MKWKaruta")
         return
+    if not card_ids:
+        card_ids = [accounts[str_author_id][3][-1][0]]
+        print(card_ids)
     tag = tag.lower()
     if not tag in accounts[str_author_id][6].keys():
         await ctx.send(f"{mention_author}, tag with name ``{tag}`` does not exist.")
@@ -894,8 +893,12 @@ async def tag(ctx, tag, *cards):
         if card[0] in card_ids:
             card[7] = tag
             card_ids.remove(card[0])
+            last_card = card
     if len(card_ids) > 0:
         await ctx.send(f"{mention_author}, at least one of the specified card ids was not found in your collection.")
+        return
+    if not cards or len(cards) == 1:
+        await ctx.send(f"{mention_author}, **{last_card[1]}** card ``{last_card[0]}`` has been successfully tagged.")
         return
     HelperFunctions.dump_accounts()
     await ctx.send(f"{mention_author}, **{len(cards)}** cards have been successfully tagged!")
@@ -910,20 +913,25 @@ async def untag(ctx, *cards):
     if not str_author_id in accounts.keys():
         await ctx.send(mention_author + " Error: Your MKWKaruta account was not found. Drop or grab a card to start!")
         return
-    if card_ids == []:
-        await ctx.send(mention_author + ", you must specify the card(s) you wish to untag.")
-        return
+
     if len(accounts[str_author_id][3]) < 1:
         await ctx.send(mention_author + " Error: No cards found in your MKWKaruta")
         return
+    if not card_ids:
+        card_ids = [accounts[str_author_id][3][-1][0]]
+        print(card_ids)
     for card in accounts[str_author_id][3]:
         if card[0] in card_ids:
             card[7] = None
             card_ids.remove(card[0])
+            last_card = card
     if len(card_ids) > 0:
         await ctx.send(f"{mention_author}, at least one of the specified card ids was not found in your collection.")
         return
     HelperFunctions.dump_accounts()
+    if not cards or len(cards) == 1:
+        await ctx.send(f"{mention_author}, **{last_card[1]}** card ``{last_card[0]}`` has been successfully untagged.")
+        return
     await ctx.send(f"{mention_author}, **{len(cards)}** cards have been successfully untagged.")
     return
 
@@ -1140,7 +1148,8 @@ async def changecards(ctx):
         return
     for person in accounts:
         for i in range(len(accounts[person][3])):
-            accounts[person][3][i] = accounts[person][3][i] + [None, []]
+            if len(accounts[person][3][i]) == 9:
+                accounts[person][3][i].append(1)
     HelperFunctions.dump_accounts()
     await ctx.send(str(accounts[str(ctx.author.id)][3][0]))
 
@@ -1170,8 +1179,9 @@ async def reset(ctx, user=None):
     if user == None:
         user = str(ctx.author.id)
     user = shared.StringFunctions.check_user(user)
-#    if ctx.author.id not in list(ADMINS.values()):
-#        return
+    if ctx.author.id not in list(ADMINS.values()):
+        ctx.send(f"{ctx.author.mention} this command is set to Admin-Only.")
+        return
     accounts[user][0] = time.time()-2000
     accounts[user][1] = time.time()-700
     accounts[user][2] = time.time()-87000
@@ -1194,8 +1204,8 @@ async def testcard(ctx, name="", bg="bg_gray", frame="ed1", quality=4):
         return
     card = ["000000", name, clan_tag, 0, bg, frame, 4]
     desc = "Test Card"
-    conditions = emojis["Conditions"]
-    msg = '``' + card[0] + '`` · ``' + conditions[card[6]] + '`` · ``#' + str(card[3]) + '`` · ' + card[2] + ' · **' + card[1] + '**\n'
+    # card_id · quality · print_number · edition · clan · name
+    msg = f"``{card[0]}`` · ``{conditions[card[6]]}`` · ``#{card[3]}`` · ``◈{card[9]}`` · {card[2]} · **{card[1]}**"
     embed = discord.Embed(title="View Card", description=desc, color=0xFFFFFF)
     embed.add_field(name="\u200b", value=msg, inline=False)
     image_file = shared.ImageFunctions.save_card(card)
@@ -1204,7 +1214,33 @@ async def testcard(ctx, name="", bg="bg_gray", frame="ed1", quality=4):
     await ctx.send(file=file, embed=embed)
     return
 
-
+@bot.command()
+async def testlineup(ctx, *cards):
+    str_author_id = str(ctx.author.id)
+    card_ids = list(cards)
+    if ctx.author.id not in list(ADMINS.values()):
+        ctx.send(f"{ctx.author.mention} this command is set to Admin-Only.")
+        return
+    if len(card_ids) != 5:
+        ctx.send(f"{ctx.author.mention} Error: please provide 5 card ids.")
+        return
+    images = []
+    for card in card_ids:
+        for user_card in accounts[str_author_id][3]:
+            if user_card[0] == card:
+                images.append(shared.ImageFunctions.render_card(user_card))
+                continue
+        continue
+    if len(cards) != 5:
+        ctx.send(f"{ctx.author.mention} Error: One of the card ids could not be found.")
+        return
+    image_file = shared.ImageFunctions.save_lineup(images)
+    desc = f"User: <@{str_author_id}>"
+    embed = discord.Embed(title="MKWKaruta Lineup", description=desc, color=0xFFFFFF)
+    file = discord.File(image_file)
+    embed.set_image(url="attachment://" + image_file)
+    await ctx.send(file=file, embed=embed)
+    return
 
 
 @bot.command()
@@ -1258,7 +1294,7 @@ async def checkduplicates(ctx):
     await ctx.send(msg[0:-2])
 
 @bot.command()
-async def images(ctx):
+async def get_missing_images(ctx):
     if ctx.author.id not in list(ADMINS.values()):
         return
     json = list(prints.keys())
@@ -1360,4 +1396,4 @@ async def on_ready():
 
     print('The bot is ready.')
 
-bot.run('OTcyMjI4NjI3OTU5NzkxNjM2.GR-QZ1.B-Uw-kuK_oDNO17E2gmbNmes2c_MHOXaa2n9cQ')
+bot.run('OTcyMjI4NjI3OTU5NzkxNjM2.GRd-s5.XAhu6CUhhtq1xngAKLNf6QOjDRxdttO7BbwhAk')

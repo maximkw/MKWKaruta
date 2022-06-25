@@ -8,7 +8,7 @@
   "Chaos": {
     "Clan": "%6ab27*",
     "Clan Tag": "%6ab27*",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Deakon": {
@@ -20,7 +20,7 @@
   "Finnn": {
     "Clan": "%6ab27*",
     "Clan Tag": "%6ab27*",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "FredUS": {
@@ -62,7 +62,7 @@
   "ZachNY": {
     "Clan": "%6ab27*",
     "Clan Tag": "%6ab27*",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "FioNa": {
@@ -80,7 +80,7 @@
   "Marron": {
     "Clan": "5G",
     "Clan Tag": "5G",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Negima": {
@@ -139,74 +139,74 @@
   },
   "Aditya": {
     "Clan": "Apocalypse",
-    "Clan Tag": "λρ",
+    "Clan Tag": "\u03bb\u03c1",
     "Print": 0,
     "Alt Name": ""
   },
   "Batcake": {
     "Clan": "Apocalypse",
-    "Clan Tag": "λρ",
+    "Clan Tag": "\u03bb\u03c1",
     "Print": 0,
     "Alt Name": ""
   },
   "Insane": {
     "Clan": "Apocalypse",
-    "Clan Tag": "λρ",
+    "Clan Tag": "\u03bb\u03c1",
     "Print": 0,
     "Alt Name": ""
   },
   "Lexin": {
     "Clan": "Apocalypse",
-    "Clan Tag": "λρ",
+    "Clan Tag": "\u03bb\u03c1",
     "Print": 0,
     "Alt Name": "SMASH"
   },
   "Mirymeg": {
     "Clan": "Apocalypse",
-    "Clan Tag": "λρ",
+    "Clan Tag": "\u03bb\u03c1",
     "Print": 0,
     "Alt Name": ""
   },
   "Sky9": {
     "Clan": "Apocalypse",
-    "Clan Tag": "λρ",
+    "Clan Tag": "\u03bb\u03c1",
     "Print": 0,
     "Alt Name": ""
   },
   "Slide": {
     "Clan": "Apocalypse",
-    "Clan Tag": "λρ",
+    "Clan Tag": "\u03bb\u03c1",
     "Print": 0,
     "Alt Name": ""
   },
   "Smoke": {
     "Clan": "Apocalypse",
-    "Clan Tag": "λρ",
-    "Print": 1,
+    "Clan Tag": "\u03bb\u03c1",
+    "Print": 0,
     "Alt Name": ""
   },
   "Tom": {
     "Clan": "Apocalypse",
-    "Clan Tag": "λρ",
+    "Clan Tag": "\u03bb\u03c1",
     "Print": 0,
     "Alt Name": ""
   },
   "Veil": {
     "Clan": "Apocalypse",
-    "Clan Tag": "λρ",
+    "Clan Tag": "\u03bb\u03c1",
     "Print": 0,
     "Alt Name": "Zyr"
   },
   "Zoey": {
     "Clan": "Apocalypse",
-    "Clan Tag": "λρ",
+    "Clan Tag": "\u03bb\u03c1",
     "Print": 0,
     "Alt Name": ""
   },
   "Charlie": {
     "Clan": "Ascension",
     "Clan Tag": "Ac",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": "CharlieG"
   },
   "ctb": {
@@ -260,7 +260,7 @@
   "Stubbz": {
     "Clan": "Ascension",
     "Clan Tag": "Ac",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Twingy": {
@@ -272,145 +272,145 @@
   "Zilla": {
     "Clan": "Ascension",
     "Clan Tag": "Ac",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Ballin": {
     "Clan": "Avail",
-    "Clan Tag": "Λv",
+    "Clan Tag": "\u039bv",
     "Print": 0,
     "Alt Name": ""
   },
   "JAM": {
     "Clan": "Avail",
-    "Clan Tag": "Λv",
+    "Clan Tag": "\u039bv",
     "Print": 0,
     "Alt Name": ""
   },
   "Joris": {
     "Clan": "Avail",
-    "Clan Tag": "Λv",
+    "Clan Tag": "\u039bv",
     "Print": 0,
     "Alt Name": ""
   },
   "Nash": {
     "Clan": "Avail",
-    "Clan Tag": "Λv",
+    "Clan Tag": "\u039bv",
     "Print": 0,
     "Alt Name": ""
   },
   "Night": {
     "Clan": "Avail",
-    "Clan Tag": "Λv",
+    "Clan Tag": "\u039bv",
     "Print": 0,
     "Alt Name": ""
   },
   "Nikos": {
     "Clan": "Avail",
-    "Clan Tag": "Λv",
+    "Clan Tag": "\u039bv",
     "Print": 0,
     "Alt Name": ""
   },
   "Olifré": {
     "Clan": "Avail",
-    "Clan Tag": "Λv",
-    "Print": 1,
+    "Clan Tag": "\u039bv",
+    "Print": 0,
     "Alt Name": ""
   },
   "ThomasFR": {
     "Clan": "Avail",
-    "Clan Tag": "Λv",
+    "Clan Tag": "\u039bv",
     "Print": 0,
     "Alt Name": ""
   },
   "ThomasNL": {
     "Clan": "Avail",
-    "Clan Tag": "Λv",
+    "Clan Tag": "\u039bv",
     "Print": 0,
     "Alt Name": ""
   },
   "Zoan": {
     "Clan": "Avail",
-    "Clan Tag": "Λv",
+    "Clan Tag": "\u039bv",
     "Print": 0,
     "Alt Name": ""
   },
   "Elox": {
     "Clan": "Aυspicion",
-    "Clan Tag": "λυ",
+    "Clan Tag": "\u03bb\u03c5",
     "Print": 0,
     "Alt Name": ""
   },
   "FrankDaSpeed": {
     "Clan": "Aυspicion",
-    "Clan Tag": "λυ",
+    "Clan Tag": "\u03bb\u03c5",
     "Print": 0,
     "Alt Name": ""
   },
   "Galla": {
     "Clan": "Aυspicion",
-    "Clan Tag": "λυ",
+    "Clan Tag": "\u03bb\u03c5",
     "Print": 0,
     "Alt Name": ""
   },
   "Goomba": {
     "Clan": "Aυspicion",
-    "Clan Tag": "λυ",
+    "Clan Tag": "\u03bb\u03c5",
     "Print": 0,
     "Alt Name": ""
   },
   "Jayde": {
     "Clan": "Aυspicion",
-    "Clan Tag": "λυ",
+    "Clan Tag": "\u03bb\u03c5",
     "Print": 0,
     "Alt Name": "Jaden"
   },
   "Jzck": {
     "Clan": "Aυspicion",
-    "Clan Tag": "λυ",
-    "Print": 1,
+    "Clan Tag": "\u03bb\u03c5",
+    "Print": 0,
     "Alt Name": ""
   },
   "Marco": {
     "Clan": "Aυspicion",
-    "Clan Tag": "λυ",
+    "Clan Tag": "\u03bb\u03c5",
     "Print": 0,
     "Alt Name": ""
   },
   "PKBOY": {
     "Clan": "Aυspicion",
-    "Clan Tag": "λυ",
-    "Print": 1,
+    "Clan Tag": "\u03bb\u03c5",
+    "Print": 0,
     "Alt Name": ""
   },
   "Sasuke": {
     "Clan": "Aυspicion",
-    "Clan Tag": "λυ",
+    "Clan Tag": "\u03bb\u03c5",
     "Print": 0,
     "Alt Name": ""
   },
   "SilverBAD": {
     "Clan": "Aυspicion",
-    "Clan Tag": "λυ",
+    "Clan Tag": "\u03bb\u03c5",
     "Print": 0,
     "Alt Name": ""
   },
   "Vantoxify": {
     "Clan": "Aυspicion",
-    "Clan Tag": "λυ",
-    "Print": 1,
+    "Clan Tag": "\u03bb\u03c5",
+    "Print": 0,
     "Alt Name": "Aero"
   },
   "Vinny": {
     "Clan": "Aυspicion",
-    "Clan Tag": "λυ",
+    "Clan Tag": "\u03bb\u03c5",
     "Print": 0,
     "Alt Name": ""
   },
   "4Vex": {
     "Clan": "BB71",
     "Clan Tag": "BB71",
-    "Print": 3,
+    "Print": 0,
     "Alt Name": ""
   },
   "FK Yazid": {
@@ -428,7 +428,7 @@
   "JordanFR": {
     "Clan": "BB71",
     "Clan Tag": "BB71",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Layla": {
@@ -470,7 +470,7 @@
   "VicZ": {
     "Clan": "BB71",
     "Clan Tag": "BB71",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Wobii": {
@@ -481,290 +481,290 @@
   },
   "Daseia": {
     "Clan": "Beati pacifici",
-    "Clan Tag": "(χ)",
-    "Print": 1,
+    "Clan Tag": "(\u03c7)",
+    "Print": 0,
     "Alt Name": ""
   },
   "Eon": {
     "Clan": "Beati pacifici",
-    "Clan Tag": "(χ)",
+    "Clan Tag": "(\u03c7)",
     "Print": 0,
     "Alt Name": ""
   },
   "Flairy": {
     "Clan": "Beati pacifici",
-    "Clan Tag": "(χ)",
+    "Clan Tag": "(\u03c7)",
     "Print": 0,
     "Alt Name": ""
   },
   "Kirito": {
     "Clan": "Beati pacifici",
-    "Clan Tag": "(χ)",
-    "Print": 2,
+    "Clan Tag": "(\u03c7)",
+    "Print": 0,
     "Alt Name": "Kiri"
   },
   "Nelly": {
     "Clan": "Beati pacifici",
-    "Clan Tag": "(χ)",
+    "Clan Tag": "(\u03c7)",
     "Print": 0,
     "Alt Name": "ne"
   },
   "Proto": {
     "Clan": "Beati pacifici",
-    "Clan Tag": "(χ)",
-    "Print": 1,
+    "Clan Tag": "(\u03c7)",
+    "Print": 0,
     "Alt Name": ""
   },
   "Puffe": {
     "Clan": "Beati pacifici",
-    "Clan Tag": "(χ)",
+    "Clan Tag": "(\u03c7)",
     "Print": 0,
     "Alt Name": ""
   },
   "Ruby": {
     "Clan": "Beati pacifici",
-    "Clan Tag": "(χ)",
-    "Print": 1,
+    "Clan Tag": "(\u03c7)",
+    "Print": 0,
     "Alt Name": ""
   },
   "Shamron": {
     "Clan": "Beati pacifici",
-    "Clan Tag": "(χ)",
+    "Clan Tag": "(\u03c7)",
     "Print": 0,
     "Alt Name": ""
   },
   "Shane": {
     "Clan": "Beati pacifici",
-    "Clan Tag": "(χ)",
-    "Print": 1,
+    "Clan Tag": "(\u03c7)",
+    "Print": 0,
     "Alt Name": ""
   },
   "Solar": {
     "Clan": "Beati pacifici",
-    "Clan Tag": "(χ)",
+    "Clan Tag": "(\u03c7)",
     "Print": 0,
     "Alt Name": "Beulah"
   },
   "Val": {
     "Clan": "Beati pacifici",
-    "Clan Tag": "(χ)",
-    "Print": 1,
+    "Clan Tag": "(\u03c7)",
+    "Print": 0,
     "Alt Name": ""
   },
   "AaronW": {
     "Clan": "Brophy's Theory",
-    "Clan Tag": "βτ",
+    "Clan Tag": "\u03b2\u03c4",
     "Print": 0,
     "Alt Name": ""
   },
   "Alex F": {
     "Clan": "Brophy's Theory",
-    "Clan Tag": "βτ",
+    "Clan Tag": "\u03b2\u03c4",
     "Print": 0,
     "Alt Name": ""
   },
   "Andreese": {
     "Clan": "Brophy's Theory",
-    "Clan Tag": "βτ",
+    "Clan Tag": "\u03b2\u03c4",
     "Print": 0,
     "Alt Name": ""
   },
   "Bickbork": {
     "Clan": "Brophy's Theory",
-    "Clan Tag": "βτ",
+    "Clan Tag": "\u03b2\u03c4",
     "Print": 0,
     "Alt Name": ""
   },
   "Broph": {
     "Clan": "Brophy's Theory",
-    "Clan Tag": "βτ",
+    "Clan Tag": "\u03b2\u03c4",
     "Print": 0,
     "Alt Name": ""
   },
   "Claus": {
     "Clan": "Brophy's Theory",
-    "Clan Tag": "βτ",
+    "Clan Tag": "\u03b2\u03c4",
     "Print": 0,
     "Alt Name": "LaBerto"
   },
   "Hedwig": {
     "Clan": "Brophy's Theory",
-    "Clan Tag": "βτ",
+    "Clan Tag": "\u03b2\u03c4",
     "Print": 0,
     "Alt Name": ""
   },
   "Hydr8ion": {
     "Clan": "Brophy's Theory",
-    "Clan Tag": "βτ",
+    "Clan Tag": "\u03b2\u03c4",
     "Print": 0,
     "Alt Name": ""
   },
   "Sassak": {
     "Clan": "Brophy's Theory",
-    "Clan Tag": "βτ",
+    "Clan Tag": "\u03b2\u03c4",
     "Print": 0,
     "Alt Name": ""
   },
   "Schultz": {
     "Clan": "Brophy's Theory",
-    "Clan Tag": "βτ",
+    "Clan Tag": "\u03b2\u03c4",
     "Print": 0,
     "Alt Name": ""
   },
   "Woomy": {
     "Clan": "Brophy's Theory",
-    "Clan Tag": "βτ",
+    "Clan Tag": "\u03b2\u03c4",
     "Print": 0,
     "Alt Name": ""
   },
   "AT": {
     "Clan": "Contingency",
-    "Clan Tag": "Cγ1",
-    "Print": 1,
+    "Clan Tag": "C\u03b31",
+    "Print": 0,
     "Alt Name": ""
   },
   "Behemoth": {
     "Clan": "Contingency",
-    "Clan Tag": "Cγ1",
+    "Clan Tag": "C\u03b31",
     "Print": 0,
     "Alt Name": ""
   },
   "Charmender": {
     "Clan": "Contingency",
-    "Clan Tag": "Cγ1",
-    "Print": 1,
+    "Clan Tag": "C\u03b31",
+    "Print": 0,
     "Alt Name": ""
   },
   "Cynical": {
     "Clan": "Contingency",
-    "Clan Tag": "Cγ1",
+    "Clan Tag": "C\u03b31",
     "Print": 0,
     "Alt Name": ""
   },
   "DanUK": {
     "Clan": "Contingency",
-    "Clan Tag": "Cγ1",
+    "Clan Tag": "C\u03b31",
     "Print": 0,
     "Alt Name": ""
   },
   "Dermo": {
     "Clan": "Contingency",
-    "Clan Tag": "Cγ1",
+    "Clan Tag": "C\u03b31",
     "Print": 0,
     "Alt Name": ""
   },
   "Joeey": {
     "Clan": "Contingency",
-    "Clan Tag": "Cγ1",
+    "Clan Tag": "C\u03b31",
     "Print": 0,
     "Alt Name": ""
   },
   "Klyde": {
     "Clan": "Contingency",
-    "Clan Tag": "Cγ1",
+    "Clan Tag": "C\u03b31",
     "Print": 0,
     "Alt Name": "Komali"
   },
   "Luis": {
     "Clan": "Contingency",
-    "Clan Tag": "Cγ1",
+    "Clan Tag": "C\u03b31",
     "Print": 0,
     "Alt Name": ""
   },
   "May": {
     "Clan": "Contingency",
-    "Clan Tag": "Cγ1",
-    "Print": 1,
+    "Clan Tag": "C\u03b31",
+    "Print": 0,
     "Alt Name": "ELP"
   },
   "Ruko": {
     "Clan": "Contingency",
-    "Clan Tag": "Cγ1",
+    "Clan Tag": "C\u03b31",
     "Print": 0,
     "Alt Name": "Hiruko"
   },
   "StormW": {
     "Clan": "Contingency",
-    "Clan Tag": "Cγ1",
-    "Print": 1,
+    "Clan Tag": "C\u03b31",
+    "Print": 0,
     "Alt Name": ""
   },
   "Dxrk": {
     "Clan": "Contingency HD189733b",
-    "Clan Tag": "Cγ2",
+    "Clan Tag": "C\u03b32",
     "Print": 0,
     "Alt Name": ""
   },
   "Isaac": {
     "Clan": "Contingency HD189733b",
-    "Clan Tag": "Cγ2",
-    "Print": 2,
+    "Clan Tag": "C\u03b32",
+    "Print": 0,
     "Alt Name": ""
   },
   "Kaden": {
     "Clan": "Contingency HD189733b",
-    "Clan Tag": "Cγ2",
-    "Print": 2,
+    "Clan Tag": "C\u03b32",
+    "Print": 0,
     "Alt Name": ""
   },
   "Karteer": {
     "Clan": "Contingency HD189733b",
-    "Clan Tag": "Cγ2",
+    "Clan Tag": "C\u03b32",
     "Print": 0,
     "Alt Name": ""
   },
   "Ket": {
     "Clan": "Contingency HD189733b",
-    "Clan Tag": "Cγ2",
+    "Clan Tag": "C\u03b32",
     "Print": 0,
     "Alt Name": ""
   },
   "Nacht": {
     "Clan": "Contingency HD189733b",
-    "Clan Tag": "Cγ2",
+    "Clan Tag": "C\u03b32",
     "Print": 0,
     "Alt Name": ""
   },
   "Notion": {
     "Clan": "Contingency HD189733b",
-    "Clan Tag": "Cγ2",
+    "Clan Tag": "C\u03b32",
     "Print": 0,
     "Alt Name": "Swag"
   },
   "Red": {
     "Clan": "Contingency HD189733b",
-    "Clan Tag": "Cγ2",
+    "Clan Tag": "C\u03b32",
     "Print": 0,
     "Alt Name": ""
   },
   "Rhino": {
     "Clan": "Contingency HD189733b",
-    "Clan Tag": "Cγ2",
+    "Clan Tag": "C\u03b32",
     "Print": 0,
     "Alt Name": "Cosmo"
   },
   "Striker": {
     "Clan": "Contingency HD189733b",
-    "Clan Tag": "Cγ2",
+    "Clan Tag": "C\u03b32",
     "Print": 0,
     "Alt Name": "Crimson"
   },
   "Sugar": {
     "Clan": "Contingency HD189733b",
-    "Clan Tag": "Cγ2",
+    "Clan Tag": "C\u03b32",
     "Print": 0,
     "Alt Name": ""
   },
   "Wob": {
     "Clan": "Contingency HD189733b",
-    "Clan Tag": "Cγ2",
+    "Clan Tag": "C\u03b32",
     "Print": 0,
     "Alt Name": ""
   },
   "Arii": {
     "Clan": "Daisy Squad",
     "Clan Tag": "Daisy",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": "Armyu"
   },
   "Arvin": {
@@ -782,7 +782,7 @@
   "EmilP": {
     "Clan": "Daisy Squad",
     "Clan Tag": "Daisy",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Judge": {
@@ -800,7 +800,7 @@
   "Mae": {
     "Clan": "Daisy Squad",
     "Clan Tag": "Daisy",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": "Mvanhoppe"
   },
   "Merc": {
@@ -818,7 +818,7 @@
   "Sammeh": {
     "Clan": "Daisy Squad",
     "Clan Tag": "Daisy",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Shura": {
@@ -848,7 +848,7 @@
   "Ethan": {
     "Clan": "Explorers of Time",
     "Clan Tag": "EXO",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Goobma": {
@@ -860,7 +860,7 @@
   "Mank": {
     "Clan": "Explorers of Time",
     "Clan Tag": "EXO",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Maxx": {
@@ -884,7 +884,7 @@
   "Tekken": {
     "Clan": "Explorers of Time",
     "Clan Tag": "EXO",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Yoshter": {
@@ -901,7 +901,7 @@
   },
   "Alpha": {
     "Clan": "Ez",
-    "Clan Tag": "Σz",
+    "Clan Tag": "\u03a3z",
     "Print": 0,
     "Alt Name": "AlphaKC"
   },
@@ -913,55 +913,55 @@
   },
   "Bluesharp": {
     "Clan": "Ez",
-    "Clan Tag": "Σz",
+    "Clan Tag": "\u03a3z",
     "Print": 0,
     "Alt Name": ""
   },
   "Dynasty": {
     "Clan": "Ez",
-    "Clan Tag": "Σz",
+    "Clan Tag": "\u03a3z",
     "Print": 0,
     "Alt Name": ""
   },
   "JonahMD": {
     "Clan": "Ez",
-    "Clan Tag": "Σz",
+    "Clan Tag": "\u03a3z",
     "Print": 0,
     "Alt Name": ""
   },
   "Kato": {
     "Clan": "Ez",
-    "Clan Tag": "Σz",
+    "Clan Tag": "\u03a3z",
     "Print": 0,
     "Alt Name": ""
   },
   "KRUSTYKRAB": {
     "Clan": "Ez",
-    "Clan Tag": "Σz",
+    "Clan Tag": "\u03a3z",
     "Print": 0,
     "Alt Name": ""
   },
   "Kyaujah": {
     "Clan": "Ez",
-    "Clan Tag": "Σz",
+    "Clan Tag": "\u03a3z",
     "Print": 0,
     "Alt Name": "CowJah"
   },
   "LeonNL": {
     "Clan": "Ez",
-    "Clan Tag": "Σz",
-    "Print": 1,
+    "Clan Tag": "\u03a3z",
+    "Print": 0,
     "Alt Name": ""
   },
   "Serene": {
     "Clan": "Ez",
-    "Clan Tag": "Σz",
+    "Clan Tag": "\u03a3z",
     "Print": 0,
     "Alt Name": ""
   },
   "Timmi": {
     "Clan": "Ez",
-    "Clan Tag": "Σz",
+    "Clan Tag": "\u03a3z",
     "Print": 0,
     "Alt Name": ""
   },
@@ -1058,7 +1058,7 @@
   "Ari": {
     "Clan": "Free Agents",
     "Clan Tag": "F/A",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Arrow": {
@@ -1112,7 +1112,7 @@
   "Big Wolf": {
     "Clan": "Free Agents",
     "Clan Tag": "F/A",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Bixbolt": {
@@ -1298,7 +1298,7 @@
   "Death": {
     "Clan": "Free Agents",
     "Clan Tag": "F/A",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": "John"
   },
   "Deedee": {
@@ -1376,7 +1376,7 @@
   "EFG": {
     "Clan": "Free Agents",
     "Clan Tag": "F/A",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": "JoshUS"
   },
   "Elmer": {
@@ -1454,25 +1454,25 @@
   "Forest": {
     "Clan": "Free Agents",
     "Clan Tag": "F/A",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Formosa": {
     "Clan": "Free Agents",
     "Clan Tag": "F/A",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": "Jackie"
   },
   "Franco": {
     "Clan": "Free Agents",
     "Clan Tag": "F/A",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Fudge": {
     "Clan": "Free Agents",
     "Clan Tag": "F/A",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": "FudgeSG"
   },
   "Funky MK": {
@@ -1544,7 +1544,7 @@
   "Hari": {
     "Clan": "Free Agents",
     "Clan Tag": "F/A",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Hebo": {
@@ -1568,7 +1568,7 @@
   "Hintz": {
     "Clan": "Free Agents",
     "Clan Tag": "F/A",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Hiroto": {
@@ -1610,7 +1610,7 @@
   "itsJC": {
     "Clan": "Free Agents",
     "Clan Tag": "F/A",
-    "Print": 2,
+    "Print": 0,
     "Alt Name": ""
   },
   "Jack": {
@@ -1676,7 +1676,7 @@
   "Jason": {
     "Clan": "Free Agents",
     "Clan Tag": "F/A",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Javi": {
@@ -1694,7 +1694,7 @@
   "Jay": {
     "Clan": "Hell's Kitchen",
     "Clan Tag": "HK1",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "JAYU": {
@@ -1706,7 +1706,7 @@
   "JeanoLBN": {
     "Clan": "Free Agents",
     "Clan Tag": "F/A",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Jef": {
@@ -1754,7 +1754,7 @@
   "Johnny": {
     "Clan": "Free Agents",
     "Clan Tag": "F/A",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Jorge": {
@@ -1796,7 +1796,7 @@
   "Kairos": {
     "Clan": "Free Agents",
     "Clan Tag": "F/A",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Kalkk": {
@@ -1892,7 +1892,7 @@
   "Lawrence": {
     "Clan": "Free Agents",
     "Clan Tag": "F/A",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Lebby": {
@@ -1982,7 +1982,7 @@
   "Lucas": {
     "Clan": "Free Agents",
     "Clan Tag": "F/A",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Luciano": {
@@ -2024,7 +2024,7 @@
   "Marcine": {
     "Clan": "Free Agents",
     "Clan Tag": "F/A",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Margio": {
@@ -2054,7 +2054,7 @@
   "Matt": {
     "Clan": "Lightspeed",
     "Clan Tag": "[L]",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "MatthewAUS": {
@@ -2144,7 +2144,7 @@
   "Mystery": {
     "Clan": "Free Agents",
     "Clan Tag": "F/A",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "NaeNae7": {
@@ -2282,7 +2282,7 @@
   "Osf": {
     "Clan": "Free Agents",
     "Clan Tag": "F/A",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Ozzy": {
@@ -2324,7 +2324,7 @@
   "PGC": {
     "Clan": "Free Agents",
     "Clan Tag": "F/A",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Phoenix": {
@@ -2342,7 +2342,7 @@
   "Process": {
     "Clan": "Free Agents",
     "Clan Tag": "F/A",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Prodigy": {
@@ -2384,7 +2384,7 @@
   "Ratio26": {
     "Clan": "Free Agents",
     "Clan Tag": "F/A",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Renvoid": {
@@ -2456,7 +2456,7 @@
   "RyanSCO": {
     "Clan": "Free Agents",
     "Clan Tag": "F/A",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Saber": {
@@ -2546,7 +2546,7 @@
   "Sgt": {
     "Clan": "Free Agents",
     "Clan Tag": "F/A",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Shaun": {
@@ -2738,7 +2738,7 @@
   "Trevor RS05": {
     "Clan": "Free Agents",
     "Clan Tag": "F/A",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Tripp": {
@@ -2918,7 +2918,7 @@
   "Zouzou": {
     "Clan": "Free Agents",
     "Clan Tag": "F/A",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "zR": {
@@ -2954,7 +2954,7 @@
   "Loonar": {
     "Clan": "Free SA.10",
     "Clan Tag": "3SA",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": "Lunar"
   },
   "MHS": {
@@ -2966,7 +2966,7 @@
   "Nxvy": {
     "Clan": "Free SA.10",
     "Clan Tag": "3SA",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "SA 10": {
@@ -3002,7 +3002,7 @@
   "Ciara": {
     "Clan": "gardie dumb wacker",
     "Clan Tag": "gdw",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": "tsu"
   },
   "EvanTX": {
@@ -3038,7 +3038,7 @@
   "Volt": {
     "Clan": "gardie dumb wacker",
     "Clan Tag": "gdw",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Zeke": {
@@ -3050,7 +3050,7 @@
   "Aaron": {
     "Clan": "gardie lumb wacker",
     "Clan Tag": "glw",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Carlo": {
@@ -3080,7 +3080,7 @@
   "Julia": {
     "Clan": "gardie lumb wacker",
     "Clan Tag": "glw",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Lordsq": {
@@ -3092,7 +3092,7 @@
   "Myles": {
     "Clan": "gardie lumb wacker",
     "Clan Tag": "glw",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Pokko": {
@@ -3116,7 +3116,7 @@
   "Arvo": {
     "Clan": "George Arvo Mark Toad",
     "Clan Tag": "GAMT",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Aura": {
@@ -3134,7 +3134,7 @@
   "George": {
     "Clan": "George Arvo Mark Toad",
     "Clan Tag": "GAMT",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Lion": {
@@ -3152,7 +3152,7 @@
   "Logan": {
     "Clan": "Jx:",
     "Clan Tag": "Jx:",
-    "Print": 2,
+    "Print": 0,
     "Alt Name": "GroofO"
   },
   "Luna": {
@@ -3187,80 +3187,80 @@
   },
   "Az": {
     "Clan": "HEAVEN",
-    "Clan Tag": "≫★",
+    "Clan Tag": "\u226b\u2605",
     "Print": 0,
     "Alt Name": "Azmact"
   },
   "Deco": {
     "Clan": "HEAVEN",
-    "Clan Tag": "≫★",
+    "Clan Tag": "\u226b\u2605",
     "Print": 0,
     "Alt Name": "TRUNKS"
   },
   "Hiduke": {
     "Clan": "HEAVEN",
-    "Clan Tag": "≫★",
+    "Clan Tag": "\u226b\u2605",
     "Print": 0,
     "Alt Name": ""
   },
   "Hizumi": {
     "Clan": "HEAVEN",
-    "Clan Tag": "≫★",
+    "Clan Tag": "\u226b\u2605",
     "Print": 0,
     "Alt Name": ""
   },
   "Jan": {
     "Clan": "HEAVEN",
-    "Clan Tag": "≫★",
+    "Clan Tag": "\u226b\u2605",
     "Print": 0,
     "Alt Name": ""
   },
   "Kasperinos": {
     "Clan": "HEAVEN",
-    "Clan Tag": "≫★",
-    "Print": 3,
+    "Clan Tag": "\u226b\u2605",
+    "Print": 0,
     "Alt Name": ""
   },
   "Nonge": {
     "Clan": "HEAVEN",
-    "Clan Tag": "≫★",
+    "Clan Tag": "\u226b\u2605",
     "Print": 0,
     "Alt Name": "NG"
   },
   "Roast": {
     "Clan": "HEAVEN",
-    "Clan Tag": "≫★",
+    "Clan Tag": "\u226b\u2605",
     "Print": 0,
     "Alt Name": ""
   },
   "Satopy": {
     "Clan": "HEAVEN",
-    "Clan Tag": "≫★",
+    "Clan Tag": "\u226b\u2605",
     "Print": 0,
     "Alt Name": ""
   },
   "Sebas": {
     "Clan": "HEAVEN",
-    "Clan Tag": "≫★",
+    "Clan Tag": "\u226b\u2605",
     "Print": 0,
     "Alt Name": "Sebastian"
   },
   "Type": {
     "Clan": "HEAVEN",
-    "Clan Tag": "≫★",
-    "Print": 1,
+    "Clan Tag": "\u226b\u2605",
+    "Print": 0,
     "Alt Name": ""
   },
   "Yoshikz": {
     "Clan": "HEAVEN",
-    "Clan Tag": "≫★",
+    "Clan Tag": "\u226b\u2605",
     "Print": 0,
     "Alt Name": ""
   },
   "Aidlo": {
     "Clan": "Heaven's Kitchen",
     "Clan Tag": "HK2",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Bboy02": {
@@ -3284,7 +3284,7 @@
   "Fahmi": {
     "Clan": "Heaven's Kitchen",
     "Clan Tag": "HK2",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Fizzy": {
@@ -3296,13 +3296,13 @@
   "Ghost": {
     "Clan": "Heaven's Kitchen",
     "Clan Tag": "HK2",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Near": {
     "Clan": "Heaven's Kitchen",
     "Clan Tag": "HK2",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Sartaglo": {
@@ -3326,13 +3326,13 @@
   "KT": {
     "Clan": "Hell's Kitchen",
     "Clan Tag": "HK1",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Onyx": {
     "Clan": "Hell's Kitchen",
     "Clan Tag": "HK1",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": "Obsidian"
   },
   "Rock Dude": {
@@ -3356,7 +3356,7 @@
   "xWill": {
     "Clan": "Hell's Kitchen",
     "Clan Tag": "HK1",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Yang": {
@@ -3398,13 +3398,13 @@
   "Gabo": {
     "Clan": "Hispania",
     "Clan Tag": "HS",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Hoesay": {
     "Clan": "Hispania",
     "Clan Tag": "HS",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Ignacio": {
@@ -3530,7 +3530,7 @@
   "Snow": {
     "Clan": "Infinite",
     "Clan Tag": "IF",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Taz": {
@@ -3548,7 +3548,7 @@
   "Tulls": {
     "Clan": "Infinite",
     "Clan Tag": "IF",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Ais": {
@@ -3560,7 +3560,7 @@
   "Aker": {
     "Clan": "Jugar o Pensar",
     "Clan Tag": "JP",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Fabian": {
@@ -3644,7 +3644,7 @@
   "Luxii": {
     "Clan": "Jx:",
     "Clan Tag": "Jx:",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Masq": {
@@ -3680,7 +3680,7 @@
   "Frozen": {
     "Clan": "Jx.",
     "Clan Tag": "Jx.",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Jeff": {
@@ -3722,7 +3722,7 @@
   "Sam": {
     "Clan": "Jx.",
     "Clan Tag": "Jx.",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Scamp": {
@@ -3746,7 +3746,7 @@
   "Dawn": {
     "Clan": "Lethal Vendetta",
     "Clan Tag": "LV2",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Hnery": {
@@ -3800,7 +3800,7 @@
   "Zenith": {
     "Clan": "Lethal Vendetta",
     "Clan Tag": "LV2",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Burke22": {
@@ -3824,7 +3824,7 @@
   "Hibberd": {
     "Clan": "Lethal Vengeance",
     "Clan Tag": "LV1",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Ivan": {
@@ -3848,13 +3848,13 @@
   "RyanUK": {
     "Clan": "Lethal Vengeance",
     "Clan Tag": "LV1",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Saky": {
     "Clan": "Lethal Vengeance",
     "Clan Tag": "LV1",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": "sky"
   },
   "Christan": {
@@ -3884,7 +3884,7 @@
   "Kev": {
     "Clan": "Lightspeed",
     "Clan Tag": "[L]",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Maxi": {
@@ -3896,7 +3896,7 @@
   "Nix": {
     "Clan": "Lightspeed",
     "Clan Tag": "[L]",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Noah": {
@@ -3997,133 +3997,133 @@
   },
   "Askaran": {
     "Clan": "Lucky Seven Karters",
-    "Clan Tag": "7κ",
+    "Clan Tag": "7\u03ba",
     "Print": 0,
     "Alt Name": ""
   },
   "Blounard": {
     "Clan": "Lucky Seven Karters",
-    "Clan Tag": "7κ",
+    "Clan Tag": "7\u03ba",
     "Print": 0,
     "Alt Name": ""
   },
   "Dracula": {
     "Clan": "Lucky Seven Karters",
-    "Clan Tag": "7κ",
+    "Clan Tag": "7\u03ba",
     "Print": 0,
     "Alt Name": ""
   },
   "DwainiumB": {
     "Clan": "Lucky Seven Karters",
-    "Clan Tag": "7κ",
+    "Clan Tag": "7\u03ba",
     "Print": 0,
     "Alt Name": ""
   },
   "Garrett": {
     "Clan": "Lucky Seven Karters",
-    "Clan Tag": "7κ",
-    "Print": 1,
+    "Clan Tag": "7\u03ba",
+    "Print": 0,
     "Alt Name": ""
   },
   "Larb": {
     "Clan": "Lucky Seven Karters",
-    "Clan Tag": "7κ",
+    "Clan Tag": "7\u03ba",
     "Print": 0,
     "Alt Name": ""
   },
   "Police": {
     "Clan": "Lucky Seven Karters",
-    "Clan Tag": "7κ",
+    "Clan Tag": "7\u03ba",
     "Print": 0,
     "Alt Name": ""
   },
   "Rachy": {
     "Clan": "Lucky Seven Karters",
-    "Clan Tag": "7κ",
+    "Clan Tag": "7\u03ba",
     "Print": 0,
     "Alt Name": ""
   },
   "Raven": {
     "Clan": "Lucky Seven Karters",
-    "Clan Tag": "7κ",
+    "Clan Tag": "7\u03ba",
     "Print": 0,
     "Alt Name": "Iceh"
   },
   "Tien": {
     "Clan": "Lucky Seven Karters",
-    "Clan Tag": "7κ",
+    "Clan Tag": "7\u03ba",
     "Print": 0,
     "Alt Name": "T_N"
   },
   "Twan": {
     "Clan": "Lucky Seven Karters",
-    "Clan Tag": "7κ",
+    "Clan Tag": "7\u03ba",
     "Print": 0,
     "Alt Name": ""
   },
   "VNix": {
     "Clan": "Lucky Seven Karters",
-    "Clan Tag": "7κ",
-    "Print": 2,
+    "Clan Tag": "7\u03ba",
+    "Print": 0,
     "Alt Name": ""
   },
   "BSH": {
     "Clan": "Luminescence",
-    "Clan Tag": "Lε",
+    "Clan Tag": "L\u03b5",
     "Print": 0,
     "Alt Name": ""
   },
   "Evasive": {
     "Clan": "Luminescence",
-    "Clan Tag": "Lε",
+    "Clan Tag": "L\u03b5",
     "Print": 0,
     "Alt Name": "EvasiveGC"
   },
   "Greg": {
     "Clan": "Luminescence",
-    "Clan Tag": "Lε",
+    "Clan Tag": "L\u03b5",
     "Print": 0,
     "Alt Name": "GeorgePlays02"
   },
   "Jezr": {
     "Clan": "Luminescence",
-    "Clan Tag": "Lε",
+    "Clan Tag": "L\u03b5",
     "Print": 0,
     "Alt Name": ""
   },
   "Landon": {
     "Clan": "Luminescence",
-    "Clan Tag": "Lε",
+    "Clan Tag": "L\u03b5",
     "Print": 0,
     "Alt Name": ""
   },
   "Mike": {
     "Clan": "Luminescence",
-    "Clan Tag": "Lε",
+    "Clan Tag": "L\u03b5",
     "Print": 0,
     "Alt Name": "Mike Pakistan"
   },
   "Monty": {
     "Clan": "Luminescence",
-    "Clan Tag": "Lε",
+    "Clan Tag": "L\u03b5",
     "Print": 0,
     "Alt Name": ""
   },
   "ssjonahss": {
     "Clan": "Luminescence",
-    "Clan Tag": "Lε",
+    "Clan Tag": "L\u03b5",
     "Print": 0,
     "Alt Name": "$$Jonah$$"
   },
   "USK": {
     "Clan": "Luminescence",
-    "Clan Tag": "Lε",
+    "Clan Tag": "L\u03b5",
     "Print": 0,
     "Alt Name": ""
   },
   "Wesley": {
     "Clan": "Luminescence",
-    "Clan Tag": "Lε",
+    "Clan Tag": "L\u03b5",
     "Print": 0,
     "Alt Name": "SpiritX"
   },
@@ -4154,7 +4154,7 @@
   "Delis": {
     "Clan": "Lz",
     "Clan Tag": "Lz",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "KA": {
@@ -4190,7 +4190,7 @@
   "Tears": {
     "Clan": "Lz",
     "Clan Tag": "Lz",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Znoky": {
@@ -4208,7 +4208,7 @@
   "Falco": {
     "Clan": "Man I Love Funky",
     "Clan Tag": "MILF",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "JackAUS": {
@@ -4250,7 +4250,7 @@
   "Trent": {
     "Clan": "Man I Love Funky",
     "Clan Tag": "MILF",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Zakziko": {
@@ -4310,13 +4310,13 @@
   "Theodor": {
     "Clan": "Mate-Mate",
     "Clan Tag": "Mate",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": "Theo"
   },
   "Toddy": {
     "Clan": "Mate-Mate",
     "Clan Tag": "Mate",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Colvin": {
@@ -4328,7 +4328,7 @@
   "Fernandez": {
     "Clan": "Megavolt",
     "Clan Tag": "MV",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Horse": {
@@ -4352,7 +4352,7 @@
   "Jck": {
     "Clan": "Megavolt",
     "Clan Tag": "MV",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Kyle": {
@@ -4387,67 +4387,67 @@
   },
   "Ardit": {
     "Clan": "Melody",
-    "Clan Tag": "«♪»",
+    "Clan Tag": "\u00ab\u266a\u00bb",
     "Print": 0,
     "Alt Name": ""
   },
   "Charge": {
     "Clan": "Melody",
-    "Clan Tag": "«♪»",
+    "Clan Tag": "\u00ab\u266a\u00bb",
     "Print": 0,
     "Alt Name": ""
   },
   "Cross": {
     "Clan": "Melody",
-    "Clan Tag": "«♪»",
+    "Clan Tag": "\u00ab\u266a\u00bb",
     "Print": 0,
     "Alt Name": ""
   },
   "Fay": {
     "Clan": "Melody",
-    "Clan Tag": "«♪»",
-    "Print": 1,
+    "Clan Tag": "\u00ab\u266a\u00bb",
+    "Print": 0,
     "Alt Name": ""
   },
   "Kenny": {
     "Clan": "Melody",
-    "Clan Tag": "«♪»",
+    "Clan Tag": "\u00ab\u266a\u00bb",
     "Print": 0,
     "Alt Name": "KennyM"
   },
   "Kiralte": {
     "Clan": "Melody",
-    "Clan Tag": "«♪»",
+    "Clan Tag": "\u00ab\u266a\u00bb",
     "Print": 0,
     "Alt Name": ""
   },
   "Marc": {
     "Clan": "Melody",
-    "Clan Tag": "«♪»",
+    "Clan Tag": "\u00ab\u266a\u00bb",
     "Print": 0,
     "Alt Name": "Oshizl"
   },
   "Razz": {
     "Clan": "Melody",
-    "Clan Tag": "«♪»",
+    "Clan Tag": "\u00ab\u266a\u00bb",
     "Print": 0,
     "Alt Name": ""
   },
   "Salz": {
     "Clan": "Melody",
-    "Clan Tag": "«♪»",
+    "Clan Tag": "\u00ab\u266a\u00bb",
     "Print": 0,
     "Alt Name": "xPBestx"
   },
   "Solem": {
     "Clan": "Melody",
-    "Clan Tag": "«♪»",
+    "Clan Tag": "\u00ab\u266a\u00bb",
     "Print": 0,
     "Alt Name": ""
   },
   "Vance": {
     "Clan": "Melody",
-    "Clan Tag": "«♪»",
+    "Clan Tag": "\u00ab\u266a\u00bb",
     "Print": 0,
     "Alt Name": "Precision"
   },
@@ -4550,7 +4550,7 @@
   "Hunterr": {
     "Clan": "Monolith",
     "Clan Tag": "mono",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Jax": {
@@ -4592,7 +4592,7 @@
   "Triclops": {
     "Clan": "Monolith",
     "Clan Tag": "mono",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "AlexITA": {
@@ -4604,7 +4604,7 @@
   "Chi": {
     "Clan": "Mount Olympus",
     "Clan Tag": "Mt.",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Deano": {
@@ -4646,7 +4646,7 @@
   "Markus": {
     "Clan": "Mount Olympus",
     "Clan Tag": "Mt.",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Sayn": {
@@ -4670,7 +4670,7 @@
   "Dragonfly": {
     "Clan": "MY13",
     "Clan Tag": "MY13",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": "Dragonfly99"
   },
   "Fresh": {
@@ -4688,19 +4688,19 @@
   "Kira": {
     "Clan": "MY13",
     "Clan Tag": "MY13",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Kjeld": {
     "Clan": "MY13",
     "Clan Tag": "MY13",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Lachlan": {
     "Clan": "MY13",
     "Clan Tag": "MY13",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": "Kleen"
   },
   "Lifted": {
@@ -4712,13 +4712,13 @@
   "Magnati": {
     "Clan": "MY13",
     "Clan Tag": "MY13",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": "Alex"
   },
   "Weexy": {
     "Clan": "MY13",
     "Clan Tag": "MY13",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Zexous": {
@@ -4778,7 +4778,7 @@
   "oj": {
     "Clan": "MY14",
     "Clan Tag": "MY14",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Raptor": {
@@ -4790,7 +4790,7 @@
   "Sardine": {
     "Clan": "MY14",
     "Clan Tag": "MY14",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Tigerwoods": {
@@ -4801,67 +4801,67 @@
   },
   "Akira": {
     "Clan": "Northwest",
-    "Clan Tag": "Nω",
+    "Clan Tag": "N\u03c9",
     "Print": 0,
     "Alt Name": ""
   },
   "Ardux": {
     "Clan": "Northwest",
-    "Clan Tag": "Nω",
+    "Clan Tag": "N\u03c9",
     "Print": 0,
     "Alt Name": ""
   },
   "Beau": {
     "Clan": "Northwest",
-    "Clan Tag": "Nω",
+    "Clan Tag": "N\u03c9",
     "Print": 0,
     "Alt Name": ""
   },
   "Deloicious": {
     "Clan": "Northwest",
-    "Clan Tag": "Nω",
+    "Clan Tag": "N\u03c9",
     "Print": 0,
     "Alt Name": ""
   },
   "Georgio": {
     "Clan": "Northwest",
-    "Clan Tag": "Nω",
+    "Clan Tag": "N\u03c9",
     "Print": 0,
     "Alt Name": ""
   },
   "Khris": {
     "Clan": "Northwest",
-    "Clan Tag": "Nω",
+    "Clan Tag": "N\u03c9",
     "Print": 0,
     "Alt Name": ""
   },
   "Maddy": {
     "Clan": "Northwest",
-    "Clan Tag": "Nω",
+    "Clan Tag": "N\u03c9",
     "Print": 0,
     "Alt Name": "Madison"
   },
   "Murray": {
     "Clan": "Northwest",
-    "Clan Tag": "Nω",
+    "Clan Tag": "N\u03c9",
     "Print": 0,
     "Alt Name": ""
   },
   "Nicki": {
     "Clan": "Northwest",
-    "Clan Tag": "Nω",
-    "Print": 1,
+    "Clan Tag": "N\u03c9",
+    "Print": 0,
     "Alt Name": ""
   },
   "Sparkster": {
     "Clan": "Northwest",
-    "Clan Tag": "Nω",
+    "Clan Tag": "N\u03c9",
     "Print": 0,
     "Alt Name": ""
   },
   "Test": {
     "Clan": "Northwest",
-    "Clan Tag": "Nω",
+    "Clan Tag": "N\u03c9",
     "Print": 0,
     "Alt Name": ""
   },
@@ -4874,7 +4874,7 @@
   "Declan": {
     "Clan": "perma jc",
     "Clan Tag": "jc",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Fear": {
@@ -4952,7 +4952,7 @@
   "Logia": {
     "Clan": "Race 12",
     "Clan Tag": "R12",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Master67x": {
@@ -4964,7 +4964,7 @@
   "Nougat": {
     "Clan": "Race 12",
     "Clan Tag": "R12",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Slime": {
@@ -5006,7 +5006,7 @@
   "Jinays": {
     "Clan": "Race 13",
     "Clan Tag": "R13",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Kaizox": {
@@ -5024,13 +5024,13 @@
   "Ouloul": {
     "Clan": "Race 13",
     "Clan Tag": "R13",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Password": {
     "Clan": "Race 13",
     "Clan Tag": "R13",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "VLok": {
@@ -5042,7 +5042,7 @@
   "Yoyoto": {
     "Clan": "Race 13",
     "Clan Tag": "R13",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Yuri": {
@@ -5084,7 +5084,7 @@
   "Goofy": {
     "Clan": "Resurrection",
     "Clan Tag": "RS",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Gray": {
@@ -5096,7 +5096,7 @@
   "Lumi": {
     "Clan": "Resurrection",
     "Clan Tag": "RS",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Noriken": {
@@ -5114,7 +5114,7 @@
   "Spade": {
     "Clan": "Resurrection",
     "Clan Tag": "RS",
-    "Print": 2,
+    "Print": 0,
     "Alt Name": ""
   },
   "Stripe": {
@@ -5150,7 +5150,7 @@
   "Gumi": {
     "Clan": "Shadow Team",
     "Clan Tag": "ST",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": "Demoxz"
   },
   "Jesús": {
@@ -5198,7 +5198,7 @@
   "Edison": {
     "Clan": "Superbia",
     "Clan Tag": "Se",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Feysal": {
@@ -5240,7 +5240,7 @@
   "Starstrike": {
     "Clan": "Superbia",
     "Clan Tag": "Se",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Vincent B": {
@@ -5258,7 +5258,7 @@
   "Baore": {
     "Clan": "Team GUN",
     "Clan Tag": "GUN",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Cobra": {
@@ -5354,7 +5354,7 @@
   "Luk3": {
     "Clan": "The Nice Guys",
     "Clan Tag": "TNG",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Mookie": {
@@ -5366,7 +5366,7 @@
   "Noah Cove": {
     "Clan": "The Nice Guys",
     "Clan Tag": "TNG",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Optilizer": {
@@ -5395,68 +5395,68 @@
   },
   "Adaze": {
     "Clan": "Tunes Horizon",
-    "Clan Tag": "Hz♪",
+    "Clan Tag": "Hz\u266a",
     "Print": 0,
     "Alt Name": ""
   },
   "dhavz": {
     "Clan": "Tunes Horizon",
-    "Clan Tag": "Hz♪",
+    "Clan Tag": "Hz\u266a",
     "Print": 0,
     "Alt Name": ""
   },
   "Empex": {
     "Clan": "Tunes Horizon",
-    "Clan Tag": "Hz♪",
+    "Clan Tag": "Hz\u266a",
     "Print": 0,
     "Alt Name": ""
   },
   "End": {
     "Clan": "Tunes Horizon",
-    "Clan Tag": "Hz♪",
+    "Clan Tag": "Hz\u266a",
     "Print": 0,
     "Alt Name": ""
   },
   "Jonny": {
     "Clan": "Tunes Horizon",
-    "Clan Tag": "Hz♪",
-    "Print": 1,
+    "Clan Tag": "Hz\u266a",
+    "Print": 0,
     "Alt Name": ""
   },
   "JoshCAN": {
     "Clan": "Tunes Horizon",
-    "Clan Tag": "Hz♪",
+    "Clan Tag": "Hz\u266a",
     "Print": 0,
     "Alt Name": ""
   },
   "Lemmy": {
     "Clan": "Tunes Horizon",
-    "Clan Tag": "Hz♪",
+    "Clan Tag": "Hz\u266a",
     "Print": 0,
     "Alt Name": ""
   },
   "MargLBN": {
     "Clan": "Tunes Horizon",
-    "Clan Tag": "Hz♪",
+    "Clan Tag": "Hz\u266a",
     "Print": 0,
     "Alt Name": ""
   },
   "Rogue": {
     "Clan": "Tunes Horizon",
-    "Clan Tag": "Hz♪",
+    "Clan Tag": "Hz\u266a",
     "Print": 0,
     "Alt Name": ""
   },
   "Roshi": {
     "Clan": "Tunes Horizon",
-    "Clan Tag": "Hz♪",
+    "Clan Tag": "Hz\u266a",
     "Print": 0,
     "Alt Name": ""
   },
   "WalterLBN": {
     "Clan": "Tunes Horizon",
-    "Clan Tag": "Hz♪",
-    "Print": 1,
+    "Clan Tag": "Hz\u266a",
+    "Print": 0,
     "Alt Name": ""
   },
   "Bort": {
@@ -5468,7 +5468,7 @@
   "Chris": {
     "Clan": "Valorous",
     "Clan Tag": "vrs",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": "crystallish"
   },
   "Daze": {
@@ -5486,7 +5486,7 @@
   "Jesus": {
     "Clan": "Valorous",
     "Clan Tag": "vrs",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Jip": {
@@ -5534,7 +5534,7 @@
   "Elana": {
     "Clan": "Versatile",
     "Clan Tag": "V$",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Fuadius": {
@@ -5593,73 +5593,73 @@
   },
   "Camelot": {
     "Clan": "WollywogZ",
-    "Clan Tag": "ωZ",
+    "Clan Tag": "\u03c9Z",
     "Print": 0,
     "Alt Name": "Fiskaren"
   },
   "Eirik": {
     "Clan": "WollywogZ",
-    "Clan Tag": "ωZ",
+    "Clan Tag": "\u03c9Z",
     "Print": 0,
     "Alt Name": ""
   },
   "haLR": {
     "Clan": "WollywogZ",
-    "Clan Tag": "ωZ",
+    "Clan Tag": "\u03c9Z",
     "Print": 0,
     "Alt Name": ""
   },
   "Hawk": {
     "Clan": "WollywogZ",
-    "Clan Tag": "ωZ",
-    "Print": 1,
+    "Clan Tag": "\u03c9Z",
+    "Print": 0,
     "Alt Name": ""
   },
   "Iris": {
     "Clan": "WollywogZ",
-    "Clan Tag": "ωZ",
+    "Clan Tag": "\u03c9Z",
     "Print": 0,
     "Alt Name": ""
   },
   "Kingler": {
     "Clan": "WollywogZ",
-    "Clan Tag": "ωZ",
+    "Clan Tag": "\u03c9Z",
     "Print": 0,
     "Alt Name": ""
   },
   "Knee": {
     "Clan": "WollywogZ",
-    "Clan Tag": "ωZ",
-    "Print": 1,
+    "Clan Tag": "\u03c9Z",
+    "Print": 0,
     "Alt Name": ""
   },
   "Larry": {
     "Clan": "WollywogZ",
-    "Clan Tag": "ωZ",
+    "Clan Tag": "\u03c9Z",
     "Print": 0,
     "Alt Name": ""
   },
   "Spec": {
     "Clan": "WollywogZ",
-    "Clan Tag": "ωZ",
+    "Clan Tag": "\u03c9Z",
     "Print": 0,
     "Alt Name": ""
   },
   "TK": {
     "Clan": "WollywogZ",
-    "Clan Tag": "ωZ",
+    "Clan Tag": "\u03c9Z",
     "Print": 0,
     "Alt Name": ""
   },
   "Valence": {
     "Clan": "WollywogZ",
-    "Clan Tag": "ωZ",
+    "Clan Tag": "\u03c9Z",
     "Print": 0,
     "Alt Name": ""
   },
   "Wally": {
     "Clan": "WollywogZ",
-    "Clan Tag": "ωZ",
+    "Clan Tag": "\u03c9Z",
     "Print": 0,
     "Alt Name": ""
   },
@@ -5750,13 +5750,13 @@
   "Rush": {
     "Clan": "Free Agents",
     "Clan Tag": "F/A",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Niko": {
     "Clan": "Free Agents",
     "Clan Tag": "F/A",
-    "Print": 1,
+    "Print": 0,
     "Alt Name": ""
   },
   "Modest": {
@@ -5780,7 +5780,7 @@
   "Emperor": {
     "Clan": "Free Agents",
     "Clan Tag": "F/A",
-    "Print": 2,
+    "Print": 0,
     "Alt Name": ""
   },
   "S4MUX": {
@@ -5792,7 +5792,7 @@
   "Andy": {
     "Clan": "Free Agents",
     "Clan Tag": "F/A",
-    "Print": 2,
+    "Print": 0,
     "Alt Name": ""
   },
   "BenjiP": {
@@ -5802,6 +5802,18 @@
     "Alt Name": ""
   },
   "Mossan": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "Mika": {
+    "Clan": "Free Agents",
+    "Clan Tag": "F/A",
+    "Print": 0,
+    "Alt Name": ""
+  },
+  "NP88": {
     "Clan": "Free Agents",
     "Clan Tag": "F/A",
     "Print": 0,
