@@ -375,8 +375,9 @@ async def collection(ctx, *words):
             else:
                 start = start + 10
         msg2 = f"Showing cards {start+1} - {start + 10}\n\n"
-        # card_id · quality · print_number · edition · clan · name
-        msg2 += f"``{tags[card[7]]} {card[0]}`` · ``{conditions[card[6]]}`` · ``#{card[3]}`` · ``◈{card[9]}`` · {card[2]} · **{card[1]}**\n"
+        for card in cardsfound[start:start + 10]:
+            # card_id · quality · print_number · edition · clan · name
+            msg2 += f"{tags[card[7]]} ``{card[0]}`` · ``{conditions[card[6]]}`` · ``#{card[3]}`` · ``◈{card[9]}`` · {card[2]} · **{card[1]}**\n"
         embed=discord.Embed(title="Card Collection", description=msg1+msg2, color=0xFFFFFF)
         await embedmessage.edit(embed=embed)
 
@@ -451,7 +452,7 @@ async def lookup(ctx, tag=None):
                     start = start + 10
             msg2 = f"**Showing cards {start+1} - {start+10} of {len(cardsfound)}**\n"
             for x in range(10):
-                msg2 += f"{x+1}. {cardsfound[x][0]} · **{cardsfound[x][1]}**\n"
+                msg2 += f"{x+1}. {cardsfound[x+start][0]} · **{cardsfound[x+start][1]}**\n"
             embed=discord.Embed(title="Card Lookup", description=msg1+msg2, color=0xFFFFFF)
             await embedmessage.edit(embed=embed)
         else:
@@ -479,15 +480,15 @@ async def burn(ctx, id=None):
     if len(accounts[str_author_id][3]) < 1:
         await ctx.send(mention_author + " Error: No cards found in your MKWKaruta")
         return
-    quality_burnvalues = [2, 5, 10, 20, 40]
-    edition_burnvalues = [0, 10, 25]
+    quality_burn_values = [2, 5, 10, 20, 40]
+    edition_burn_values = [0, 10, 25]
     burn_card = None
     if id==None:
         burn_card = accounts[str_author_id][3][-1]
         id = burn_card[0]
     else:
         if not len(id)==6:
-            await ctx.send(mention_author + "Error: this is an invalid 6 letter card ID")
+            await ctx.send(mention_author + " Error: this is an invalid 6 letter card ID")
             return
         for card in accounts[str_author_id][3]:
             if card[0] == id:
@@ -498,8 +499,8 @@ async def burn(ctx, id=None):
         return
     image_file = shared.ImageFunctions.save_card(burn_card)
     file = discord.File(image_file)
-    burnvalue = quality_burnvalues[burn_card[6]] + edition_burnvalues[burn_card[9]]
-    msg = f"{mention_author}, by burning ``{id}`` you will receive:\n\n\N{MONEY WITH WINGS}: **{burnvalue}** Dollas"
+    burn_value = quality_burn_values[burn_card[6]] + edition_burn_values[burn_card[9]]
+    msg = f"{mention_author}, by burning ``{id}`` you will receive:\n\n\N{MONEY WITH WINGS}: **{burn_value}** Dollas"
     embed=discord.Embed(title="Burn Card", description=msg, color=0xFFFFFF)
     embed.set_thumbnail(url="attachment://" + image_file)
     options = [emojis["Red X"],emojis["Fire"]]
@@ -520,18 +521,86 @@ async def burn(ctx, id=None):
     else:
         for card in accounts[str_author_id][3]:
             if card[0] == id:
-                accounts[str_author_id][5] += burnvalue
+                accounts[str_author_id][5] += burn_value
                 accounts[str_author_id][3].remove(card)
                 HelperFunctions.dump_accounts()
-                msg = f"{mention_author}, ``{id}`` has been successfully burned. \n You have recieved:\n\n\N{MONEY WITH WINGS}: **{burnvalue}** Dollas\n"
+                msg = f"{mention_author}, ``{id}`` has been successfully burned. \n You have recieved:\n\n\N{MONEY WITH WINGS}: **{burn_value}** Dollas\n"
                 embed=discord.Embed(title="Burn Card", description=msg, color=0x00FF2F)
                 embed.set_thumbnail(url="attachment://" + image_file)
                 await embedmessage.edit(embed=embed)
                 return
         msg = f"{mention_author} Error: ``{id}`` was not found."
-        embed=discord.Embed(title="Burn Card", description=msg, color=0x00FF2F)
+        embed=discord.Embed(title="Burn Card", description=msg, color=0xFF0000)
         embed.set_thumbnail(url="attachment://" + image_file)
         await embedmessage.edit(embed=embed)
+    return
+
+#Allows the user to delete many cards with a given tag.
+@bot.command(aliases=["mb"])
+async def multiburn(ctx, tag=None):
+    str_author_id = str(ctx.author.id)
+    mention_author = ctx.author.mention
+
+    if shared.StringFunctions.check_user(str_author_id) == None:
+        await ctx.send(mention_author + " Error: Your MKWKaruta collection was not found.")
+        return
+    if len(accounts[str_author_id][3]) < 1:
+        await ctx.send(mention_author + " Error: No cards found in your MKWKaruta")
+        return
+    if not tag:
+        await ctx.send(f"{mention_author}, you must specify a tag.")
+        return
+    tag = tag.lower()
+    if not tag in accounts[str_author_id][6].keys():
+        await ctx.send(f"{mention_author}, tag ``{tag}`` does not exist.")
+        return
+
+    quality_burn_values = [2, 5, 10, 20, 40]
+    edition_burn_values = [0, 10, 25]
+    burn_cards = []
+    burn_value = 0
+    for card in accounts[str_author_id][3]:
+        if card[7] == tag:
+            burn_cards.append(card[0])
+            burn_value += quality_burn_values[card[6]] + edition_burn_values[card[9]]
+    if not burn_cards:
+        await ctx.send(f"{mention_author}, no cards with tag ``{tag}`` were found in your collection.")
+        return
+
+    burn_card_total = len(burn_cards)
+    msg = f"{mention_author}, by burning **{burn_card_total} cards** with tag ``{tag}``, you will receive:\n\n\N{MONEY WITH WINGS}: **{burn_value}** Dollas"
+    embed=discord.Embed(title="Burn Cards", description=msg, color=0xFFFFFF)
+    options = [emojis["Red X"],emojis["Fire"]]
+    embedmessage = await ctx.send(embed=embed)
+    await embedmessage.add_reaction(emojis["Red X"])
+    await embedmessage.add_reaction(emojis["Fire"])
+    def check(reaction, user):
+        return user == ctx.author and str(reaction.emoji) in options and reaction.message == embedmessage
+    try:
+        reaction, user = await bot.wait_for('reaction_add', timeout=20, check=check)
+    except asyncio.TimeoutError:
+        return
+    if reaction.emoji == emojis["Red X"]:
+        msg = f"{mention_author}, this multiburn has been canceled."
+        embed=discord.Embed(title="Burn Cards", description=msg, color=0xFF0000)
+        await embedmessage.edit(embed=embed)
+    else:
+        updated_collection = accounts[str_author_id][3].copy()
+        for card in accounts[str_author_id][3]:
+            if card[0] in burn_cards:
+                updated_collection.remove(card)
+                burn_cards.remove(card[0])
+        if len(burn_cards) > 0:
+            msg = f"{mention_author} Error: at least one card was not found."
+            embed=discord.Embed(title="Burn Cards", description=msg, color=0xFF0000)
+            await embedmessage.edit(embed=embed)
+            return
+        msg = f"{mention_author}, **{burn_card_total} cards** were successfully burned. \n You have recieved:\n\n\N{MONEY WITH WINGS}: **{burn_value}** Dollas\n"
+        embed=discord.Embed(title="Burn Cards", description=msg, color=0x00FF2F)
+        await embedmessage.edit(embed=embed)
+        accounts[str_author_id][5] += burn_value
+        accounts[str_author_id][3] = updated_collection
+        HelperFunctions.dump_accounts()
     return
 
 #Allows users to gift one of their cards to another user
@@ -562,7 +631,7 @@ async def give(ctx, giftee=None, id=None):
         id = card[0]
     else:
         if not len(id)==6:
-            await ctx.send(mention_author + "Error: this is an invalid 6 letter card ID")
+            await ctx.send(mention_author + " Error: this is an invalid 6 letter card ID")
             return
         for c in accounts[str_author_id][3]:
             if c[0] == id:
@@ -1180,7 +1249,7 @@ async def reset(ctx, user=None):
         user = str(ctx.author.id)
     user = shared.StringFunctions.check_user(user)
     if ctx.author.id not in list(ADMINS.values()):
-        ctx.send(f"{ctx.author.mention} this command is set to Admin-Only.")
+        await ctx.send(f"{ctx.author.mention} this command is set to Admin-Only.")
         return
     accounts[user][0] = time.time()-2000
     accounts[user][1] = time.time()-700
@@ -1190,6 +1259,9 @@ async def reset(ctx, user=None):
 
 @bot.command()
 async def m(ctx, money):
+    if ctx.author.id not in list(ADMINS.values()):
+        ctx.send(f"{ctx.author.mention} this command is set to Admin-Only.")
+        return
     str_author_id = str(ctx.author.id)
     accounts[str_author_id][5] = money
     HelperFunctions.dump_accounts()
@@ -1202,9 +1274,11 @@ async def testcard(ctx, name="", bg="bg_gray", frame="ed1", quality=4):
     except:
         await ctx.send('Error: this card was not found (try using different capitalization). ')
         return
-    card = ["000000", name, clan_tag, 0, bg, frame, 4]
+    card = ["000000", name, clan_tag, 0, bg, frame, 4, None, [], 1]
     desc = "Test Card"
+
     # card_id · quality · print_number · edition · clan · name
+    conditions = emojis["Conditions"]
     msg = f"``{card[0]}`` · ``{conditions[card[6]]}`` · ``#{card[3]}`` · ``◈{card[9]}`` · {card[2]} · **{card[1]}**"
     embed = discord.Embed(title="View Card", description=desc, color=0xFFFFFF)
     embed.add_field(name="\u200b", value=msg, inline=False)
@@ -1396,4 +1470,4 @@ async def on_ready():
 
     print('The bot is ready.')
 
-bot.run('OTcyMjI4NjI3OTU5NzkxNjM2.GRd-s5.XAhu6CUhhtq1xngAKLNf6QOjDRxdttO7BbwhAk')
+bot.run('')
