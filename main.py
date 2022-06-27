@@ -44,6 +44,8 @@ emojis = {
     "Red X": "\N{CROSS MARK}",
     "Fire": "\N{FIRE}",
     "Check": "\N{WHITE HEAVY CHECK MARK}",
+    "Blue Check": "\N{BALLOT BOX WITH CHECK}",
+    "Lock": "\N{LOCK}",
     "Conditions": ["\u2606\u2606\u2606\u2606","\u2605\u2606\u2606\u2606","\u2605\u2605\u2606\u2606","\u2605\u2605\u2605\u2606","\u2605\u2605\u2605\u2605",],
     "Black Square": "\N{BLACK MEDIUM SMALL SQUARE}"
   }
@@ -87,15 +89,15 @@ class HelperFunctions:
         2 Daily time
         3 Card Collection
         4 inventory
-        5 Money (Dollas)
+        5 Money (Gold)
         6 Collection Tags
         """
-        accounts[str(user_id)] = [time.time()-700, time.time()-2000, time.time()-90000,[], [], 0]
+        accounts[str(user_id)] = [time.time()-700, time.time()-2000, time.time()-90000,[], [], 0, {}]
         HelperFunctions.dump_accounts()
 
-    def dump_accounts():
+    def dump_accounts(j=accounts):
         with codecs.open(f'{JSON_DIR}accounts.json', 'w', encoding='utf-8') as json_file:
-            json.dump(accounts, json_file, ensure_ascii=False, indent=2, separators=(',', ': '))
+            json.dump(j, json_file, ensure_ascii=False, indent=2, separators=(',', ': '))
 
     def dump_prints():
         with codecs.open(f'{JSON_DIR}prints.json', 'w', encoding='utf-8') as json_file:
@@ -398,7 +400,7 @@ async def lookup(ctx, tag=None):
             cardsfound.append([prints[x]["Clan Tag"],x])
 
     if len(cardsfound) < 1:
-        await ctx.send(mention_author + " no results were found for *" + tag + "*.")
+        await ctx.send(f"{mention_author} no results were found for ``{tag}``")
         return
 
     cardsfound.sort()
@@ -422,9 +424,8 @@ async def lookup(ctx, tag=None):
         bot.loop.create_task(bot.wait_for('message', check=lambda m: m.author == ctx.author and m.channel == ctx.channel), name="rrem"),
         bot.loop.create_task(bot.wait_for('reaction_add', check=lambda reaction, user: str(user.id) == str_author_id and str(reaction.emoji) in reactions and reaction.message == embedmessage and many_pages == True), name="radd")
         ]
-        try:
-            done, pending = await asyncio.wait(tasks, timeout=30, return_when=asyncio.FIRST_COMPLETED)
-        except asyncio.TimeoutError:
+        done, pending = await asyncio.wait(tasks, timeout=30, return_when=asyncio.FIRST_COMPLETED)
+        if str(done) == "set()":
             return
 
         finished = list(done)[0]
@@ -500,7 +501,7 @@ async def burn(ctx, id=None):
     image_file = shared.ImageFunctions.save_card(burn_card)
     file = discord.File(image_file)
     burn_value = quality_burn_values[burn_card[6]] + edition_burn_values[burn_card[9]]
-    msg = f"{mention_author}, by burning ``{id}`` you will receive:\n\n\N{MONEY WITH WINGS}: **{burn_value}** Dollas"
+    msg = f"{mention_author}, by burning ``{id}`` you will receive:\n\n\N{MONEY WITH WINGS}: **{burn_value}** Gold"
     embed=discord.Embed(title="Burn Card", description=msg, color=0xFFFFFF)
     embed.set_thumbnail(url="attachment://" + image_file)
     options = [emojis["Red X"],emojis["Fire"]]
@@ -524,7 +525,7 @@ async def burn(ctx, id=None):
                 accounts[str_author_id][5] += burn_value
                 accounts[str_author_id][3].remove(card)
                 HelperFunctions.dump_accounts()
-                msg = f"{mention_author}, ``{id}`` has been successfully burned. \n You have recieved:\n\n\N{MONEY WITH WINGS}: **{burn_value}** Dollas\n"
+                msg = f"{mention_author}, ``{id}`` has been successfully burned. \n You have recieved:\n\n\N{MONEY WITH WINGS}: **{burn_value}** Gold\n"
                 embed=discord.Embed(title="Burn Card", description=msg, color=0x00FF2F)
                 embed.set_thumbnail(url="attachment://" + image_file)
                 await embedmessage.edit(embed=embed)
@@ -568,7 +569,7 @@ async def multiburn(ctx, tag=None):
         return
 
     burn_card_total = len(burn_cards)
-    msg = f"{mention_author}, by burning **{burn_card_total} cards** with tag ``{tag}``, you will receive:\n\n\N{MONEY WITH WINGS}: **{burn_value}** Dollas"
+    msg = f"{mention_author}, by burning **{burn_card_total} cards** with tag ``{tag}``, you will receive:\n\n\N{MONEY WITH WINGS}: **{burn_value}** Gold"
     embed=discord.Embed(title="Burn Cards", description=msg, color=0xFFFFFF)
     options = [emojis["Red X"],emojis["Fire"]]
     embedmessage = await ctx.send(embed=embed)
@@ -595,7 +596,7 @@ async def multiburn(ctx, tag=None):
             embed=discord.Embed(title="Burn Cards", description=msg, color=0xFF0000)
             await embedmessage.edit(embed=embed)
             return
-        msg = f"{mention_author}, **{burn_card_total} cards** were successfully burned. \n You have recieved:\n\n\N{MONEY WITH WINGS}: **{burn_value}** Dollas\n"
+        msg = f"{mention_author}, **{burn_card_total} cards** were successfully burned. \n You have recieved:\n\n\N{MONEY WITH WINGS}: **{burn_value}** Gold\n"
         embed=discord.Embed(title="Burn Cards", description=msg, color=0x00FF2F)
         await embedmessage.edit(embed=embed)
         accounts[str_author_id][5] += burn_value
@@ -604,7 +605,7 @@ async def multiburn(ctx, tag=None):
     return
 
 #Allows users to gift one of their cards to another user
-@bot.command(aliases=["g"])
+@bot.command(aliases=["g", "gift"])
 async def give(ctx, giftee=None, id=None):
     str_author_id = str(ctx.author.id)
     mention_author = ctx.author.mention
@@ -679,6 +680,207 @@ async def give(ctx, giftee=None, id=None):
         await embedmessage.edit(embed=embed)
     return
 
+#Allows users to trade cards, items, and currency with another user
+@bot.command(aliases=["mt", "multitrade"])
+async def trade(ctx, trader=None, id=None):
+    str_author_id = str(ctx.author.id)
+    mention_author = ctx.author.mention
+    try:
+        trader = trader[2:-1]
+        if not trader in accounts.keys():
+            await ctx.send(mention_author + " Error: This user was not found.")
+            return
+        if trader == str_author_id:
+            await ctx.send(mention_author + " Error: You cannot trade with yourself")
+            return
+    except:
+        await ctx.send(mention_author + " Error: You must mention the user you wish to trade with.")
+        return
+    if shared.StringFunctions.check_user(str_author_id) == None:
+        await ctx.send(mention_author + " Error: Your MKWKaruta collection was not found.")
+        return
+    msg = f"<@{trader}>, do you wish to trade with <@{str_author_id}> ?"
+    embed=discord.Embed(title="Trade", description=msg, color=0xFFFFFF)
+    options = [emojis["Red X"],emojis["Blue Check"]]
+    embedmessage = await ctx.send(embed=embed)
+    await embedmessage.add_reaction(emojis["Red X"])
+    await embedmessage.add_reaction(emojis["Blue Check"])
+    def check(reaction, user):
+        check1 = str(user.id) == trader and str(reaction.emoji) in options and reaction.message == embedmessage
+        check2 = str(user.id) == str_author_id and str(reaction.emoji) == emojis["Red X"] and reaction.message == embedmessage
+        return check1 or check2
+    try:
+        reaction, user = await bot.wait_for('reaction_add', timeout=30, check=check)
+    except asyncio.TimeoutError:
+        msg = f"{mention_author}, this trade has timed out."
+        embed=discord.Embed(title="Trade", description=msg, color=0xFF0000)
+        await embedmessage.edit(embed=embed)
+        return
+    if reaction.emoji == emojis["Red X"]:
+        msg = f"{mention_author}, this trade has been canceled."
+        embed=discord.Embed(title="Trade", description=msg, color=0xFF0000)
+        await embedmessage.edit(embed=embed)
+        return
+    trader_name = user
+    msg = "What would you like to trade?"
+    author_header = "diff\n- offer -\n\n"
+    trader_header = "diff\n- offer -\n\n"
+    author_field = []
+    trader_field = []
+    embed=discord.Embed(title="Trade", description=msg, color=0xFFFFFF)
+    embed.add_field(name=ctx.author, value=f"```{author_header}```", inline=True)
+    embed.add_field(name=trader_name, value=f"```{trader_header}```", inline=True)
+    await embedmessage.edit(embed=embed)
+    await embedmessage.add_reaction(emojis["Lock"])
+    options = [emojis["Red X"],emojis["Lock"]]
+    locked_users = [] #users who locked trade with lock emoji reaction
+    confirmed_users = [] #users who confirmed trade with green check reaction
+    while True:
+        tasks = [
+        bot.loop.create_task(bot.wait_for('message', check=lambda m: str(m.author.id) in [str_author_id,trader]
+                                          and m.channel == ctx.channel and not str(m.author.id) in locked_users), name="rrem"),
+        bot.loop.create_task(bot.wait_for('reaction_add', check=lambda reaction, user: str(user.id) in [str_author_id,trader]
+                                          and str(reaction.emoji) in options and reaction.message == embedmessage), name="radd")
+        ]
+        done, pending = await asyncio.wait(tasks, timeout=60, return_when=asyncio.FIRST_COMPLETED)
+        if str(done) == "set()":
+            embed=discord.Embed(title="Trade", description="This trade has timed out.", color=0xFF0000)
+            str_author_field = "\n".join(author_field)
+            str_trader_field = "\n".join(trader_field)
+            embed.add_field(name=ctx.author, value=f"```{author_header}{str_author_field}```", inline=True)
+            embed.add_field(name=trader_name, value=f"```{trader_header}{str_trader_field}```", inline=True)
+            await embedmessage.edit(embed=embed)
+            return
+
+        finished = list(done)[0]
+
+        action = finished.get_name()
+        result = finished.result()
+
+        done, pending = None, None
+
+        if action == "radd":
+            reaction, user = result
+            if reaction.emoji == emojis["Red X"]:
+                msg = f"{mention_author}, this trade has been canceled."
+                embed=discord.Embed(title="Trade", description=msg, color=0xFF0000)
+                await embedmessage.edit(embed=embed)
+                return
+            if str(reaction.emoji) == emojis["Lock"] and not str(user.id) in locked_users:
+                locked_users.append(str(user.id))
+                if str(user.id) == str_author_id:
+                    author_header = "diff\n+ Locked +\n\n"
+                else:
+                    trader_header = "diff\n+ Locked +\n\n"
+                if all(x in locked_users for x in [str_author_id, trader]):
+                    options = [emojis["Check"]]
+                    await embedmessage.add_reaction(emojis["Check"])
+
+            elif str(reaction.emoji) == emojis["Check"] and not str(user.id) in confirmed_users:
+                confirmed_users.append(str(user.id))
+                # if both users have confirmed the trade
+                if all(x in confirmed_users for x in [str_author_id, trader]):
+                    accounts_copy = accounts.copy()
+                    # give authors items to trader
+                    for x in author_field:
+                        if x.split()[-1] == "Gold":
+                            if accounts[str_author_id][5] >= int(x.split()[0]):
+                                accounts_copy[str_author_id][5] += -int(x.split()[0])
+                                accounts_copy[trader][5] += int(x.split()[0])
+                            else:
+                                raise Exception("Not enough gold in author's account.")
+                                return
+                        elif len(x) == 6:
+                            for i in range(len(accounts[str_author_id][3])):
+                                if accounts[str_author_id][3][i][0] == x:
+                                    this_card = accounts_copy[str_author_id][3].pop(i)
+                                    this_card[7] == None #remove tag
+                                    accounts_copy[trader][3].append(this_card)
+                                    break
+                        elif item in accounts[str_author_id][4]:
+                            accounts_copy[str_author_id][4].remove(item)
+                            accounts_copy[trader][4].append(item)
+                            continue
+                        else:
+                            raise Exception(f"Missing the following item: {x}")
+                            return
+                    # give traders items to author
+                    for x in trader_field:
+                        if x.split()[-1] == "Gold":
+                            if accounts[trader][5] >= int(x.split()[0]):
+                                accounts_copy[trader][5] += -int(x.split()[0])
+                                accounts_copy[str_author_id][5] += int(x.split()[0])
+                            else:
+                                raise Exception("Not enough gold in trader's account.")
+                        elif len(x) == 6:
+                            for i in range(len(accounts[trader][3])):
+                                if accounts[trader][3][i][0] == x:
+                                    this_card = accounts_copy[trader][3].pop(i)
+                                    this_card[7] == None #remove tag
+                                    accounts_copy[str_author_id][3].append(this_card)
+                                    break
+                        elif item in accounts[trader][4]:
+                            accounts_copy[trader][4].remove(item)
+                            accounts_copy[str_author_id][4].append(item)
+                            continue
+                        else:
+                            raise Exception(f"Missing the following item: {x}")
+                            return
+                    HelperFunctions.dump_accounts(accounts_copy)
+                    embed=discord.Embed(title="Trade", description="This trade has been completed!", color=0x00FF2F)
+                    embed.add_field(name=ctx.author, value=f"```{author_header}{str_author_field}```", inline=True)
+                    embed.add_field(name=trader_name, value=f"```{trader_header}{str_trader_field}```", inline=True)
+                    await embedmessage.edit(embed=embed)
+                    return
+        else:
+            item = result.content.lower()
+            item_list = item.split()
+
+            if str(result.author.id) == str_author_id:
+                if len(item_list) == 2 and item_list[0].isnumeric() and item_list[-1] == "gold":
+                    for x in author_field:
+                        if "Gold" in x:
+                            author_field.remove(x)
+                    if accounts[str_author_id][5] >= int(item_list[0]):
+                        author_field.append(f"{item_list[0]} Gold")
+                elif item in author_field:
+                    author_field.remove(item)
+                elif len(item) == 6:
+                    for card in accounts[str_author_id][3]:
+                        if card[0] == result.content:
+                            author_field.append(item)
+                elif item in accounts[str_author_id][4]:
+                    author_field.append(item)
+                else:
+                    continue
+
+            else:
+                if str(result.author.id) == trader:
+                    if len(item_list) == 2 and item_list[0].isnumeric() and item_list[-1] == "gold":
+                        for x in trader_field:
+                            if "Gold" in x:
+                                trader_field.remove(x)
+                        if accounts[trader][5] >= int(item_list[0]):
+                            trader_field.append(f"{item_list[0]} Gold")
+                    elif item in trader_field:
+                        trader_field.remove(item)
+                    elif len(item) == 6:
+                        for card in accounts[trader][3]:
+                            if card[0] == result.content:
+                                trader_field.append(item)
+                    elif item in accounts[trader][4]:
+                        trader_field.append(item)
+                    else:
+                        continue
+
+        str_author_field = "\n".join(author_field)
+        str_trader_field = "\n".join(trader_field)
+
+        embed=discord.Embed(title="Trade", description=msg, color=0xFFFFFF)
+        embed.add_field(name=ctx.author, value=f"```{author_header}{str_author_field}```", inline=True)
+        embed.add_field(name=trader_name, value=f"```{trader_header}{str_trader_field}```", inline=True)
+        await embedmessage.edit(embed=embed)
+
 #Displays a user's inventory in an embed
 @bot.command(aliases=["i"])
 async def inventory(ctx, user=None):
@@ -690,7 +892,7 @@ async def inventory(ctx, user=None):
         await ctx.send(f"{mention_author} Error: This user was not found.")
         return
     embed=discord.Embed(title="Inventory", description="Items carried by <@" + user + ">", color=0x91FFFB)
-    msg = f"\N{MONEY WITH WINGS}: **{accounts[user][5]}** Dollas\n"
+    msg = f"\N{MONEY WITH WINGS}: **{accounts[user][5]}** Gold\n"
     if len(accounts[user][4]) > 0:
         for item in accounts[user][4]:
             msg += f"**{itemshop[item][0]}** · ``{item}``\n"
@@ -789,7 +991,7 @@ async def daily(ctx): ##inventory
     accounts[str_author_id][5] += dailyreward
     accounts[str_author_id][2] = time.time()
     HelperFunctions.dump_accounts()
-    await ctx.send(mention_author + ' You have gained ``' + str(dailyreward) + '`` Dollas!\n')
+    await ctx.send(mention_author + ' You have gained ``' + str(dailyreward) + '`` Gold!\n')
     return
 
 #Allows a user to consume a background they own and apply it to a card in their collection.
@@ -867,14 +1069,14 @@ async def addbackground(ctx, id=None, background=None): ##give
 async def shop(ctx):
     if user in accounts.keys():
         balance = str(accounts[user][5])
-        embed=discord.Embed(title="Item Shop", description="<@" + user + ">'s balance: " + balance + " dollas", color=0x91FFFB)
+        embed=discord.Embed(title="Item Shop", description="<@" + user + ">'s balance: " + balance + " Gold", color=0x91FFFB)
     else:
         embed=discord.Embed(title="Item Shop", description="<@" + user + ">", color=0x91FFFB)
     msg = ""
     for item in itemshop.keys():
         name = itemshop[item][0]
         price = itemshop[item][1]
-        msg += '**' + name + "**  · ``" + item + "`` · " + str(price) + " Dollas\n"
+        msg += '**' + name + "**  · ``" + item + "`` · " + str(price) + " Gold\n"
     embed.add_field(name="\u200b", value=msg, inline=False)
     await ctx.send(embed=embed)
     return
@@ -898,7 +1100,7 @@ async def buy(ctx, item=None): ##itemshop
     msg = mention_author + " will **gain**\n"
     msg += "```diff\n+1 " + item + "```\n"
     msg2 = mention_author + " will **lose**\n"
-    msg2 += "```diff\n-" + str(itemshop[item][1]) + " Dollas" + "```\n"
+    msg2 += "```diff\n-" + str(itemshop[item][1]) + " Gold" + "```\n"
     embed.add_field(name="\u200b", value=msg, inline=False)
     embed.add_field(name="\u200b", value=msg2, inline=False)
     options = [emojis["Red X"],emojis["Check"]]
@@ -953,7 +1155,6 @@ async def tag(ctx, tag, *cards):
         return
     if not card_ids:
         card_ids = [accounts[str_author_id][3][-1][0]]
-        print(card_ids)
     tag = tag.lower()
     if not tag in accounts[str_author_id][6].keys():
         await ctx.send(f"{mention_author}, tag with name ``{tag}`` does not exist.")
@@ -988,7 +1189,6 @@ async def untag(ctx, *cards):
         return
     if not card_ids:
         card_ids = [accounts[str_author_id][3][-1][0]]
-        print(card_ids)
     for card in accounts[str_author_id][3]:
         if card[0] in card_ids:
             card[7] = None
@@ -1138,7 +1338,7 @@ async def upgrade(ctx, id=None):
         msg += mention_author + ", upgrading the condition of ``" + id + "`` from **" + conditions[old_condition][0] + "** to **" + conditions[old_condition + 1][0]
         msg += "** has a **" + str(conditions[old_condition][2]) + "%** chance of succeeding. If this upgrade fails, the card's condition will not change.\n\n"
         msg += "Attempting the upgrade will cost the following resources:\n"
-        msg += "```diff\n-" + str(conditions[old_condition][1]) + " Dollas```"
+        msg += "```diff\n-" + str(conditions[old_condition][1]) + " Gold```"
         embed=discord.Embed(title="Card Upgrade", description=msg, color=embedcolor)
         embed.set_thumbnail(url="attachment://" + image_file)
         embedmessage = await ctx.send(file=file, embed=embed)
@@ -1150,7 +1350,7 @@ async def upgrade(ctx, id=None):
         except asyncio.TimeoutError:
             return
         if accounts[str_author_id][5] < conditions[cardfound[6]][1]:
-            msg = mention_author + ", you do not have enough Dollas to attempt this upgrade."
+            msg = mention_author + ", you do not have enough Gold to attempt this upgrade."
             embed=discord.Embed(title="Card Upgrade", description=msg, color=0xFF0000)
             embed.set_thumbnail(url="attachment://" + image_file)
             await embedmessage.edit(embed=embed)
@@ -1211,26 +1411,27 @@ async def deleteallcollections(ctx):
     HelperFunctions.dump_accounts()
     await ctx.send("Holy shit. Everyone's inventories have been deleted!")
 
-@bot.command()
-async def changecards(ctx):
-    if ctx.author.id not in list(ADMINS.values()):
-        return
-    for person in accounts:
-        for i in range(len(accounts[person][3])):
-            if len(accounts[person][3][i]) == 9:
-                accounts[person][3][i].append(1)
-    HelperFunctions.dump_accounts()
-    await ctx.send(str(accounts[str(ctx.author.id)][3][0]))
-
-@bot.command()
-async def newuserformat(ctx):
-    if ctx.author.id not in list(ADMINS.values()):
-        return
-    emptydict = {}
-    for person in accounts:
-        accounts[person].append(emptydict)
-    HelperFunctions.dump_accounts()
-    await ctx.send("Done.")
+# @bot.command()
+# async def changecards(ctx):
+#     if ctx.author.id not in list(ADMINS.values()):
+#         return
+#     for person in accounts:
+#         for i in range(len(accounts[person][3])):
+#             if len(accounts[person][3][i]) == 9:
+#                 accounts[person][3][i].append(1)
+#     HelperFunctions.dump_accounts()
+#     await ctx.send(str(accounts[str(ctx.author.id)][3][0]))
+#
+# @bot.command()
+# async def newuserformat(ctx):
+#     if ctx.author.id not in list(ADMINS.values()):
+#         return
+#     emptydict = {}
+#     for person in accounts:
+#         if not len(person) == 6:
+#             accounts[person].pop()
+#     HelperFunctions.dump_accounts()
+#     await ctx.send("Done.")
 
 
 @bot.command()
@@ -1316,79 +1517,6 @@ async def testlineup(ctx, *cards):
     await ctx.send(file=file, embed=embed)
     return
 
-
-@bot.command()
-async def getfcs(ctx):
-    if ctx.author.id not in list(ADMINS.values()):
-        return
-    json = list(prints.keys())
-    os.chdir(os.path.join(CURRENT_DIR, "miis"))
-    allprints = os.listdir()
-    lines = []
-    missingfcs = []
-    for name in json:
-        imgname = name + ".png"
-        if not os.path.exists(imgname):
-            try:
-                code = fcs[name.lower()]["fc"]
-                lines.append(name + " " + code + "\n")
-            except:
-                lines.append(name + "\n")
-                missingfcs.append(name)
-    lines.sort()
-    t = time.asctime(time.gmtime())
-    msg = "Missing Entries at " + t + "\n"
-    for line in lines:
-        msg += line
-    os.chdir(CURRENT_DIR)
-    with codecs.open(f'{JSON_DIR}missingimageswithfcs.txt', 'w', encoding='utf-8') as f:
-        f.write(msg)
-    await ctx.send("Saved to missingimageswithfcs.txt")
-    msg = "Missing FCs from " + "\n".join(missingfcs)
-    with codecs.open(f'{JSON_DIR}missingfcs.txt', 'w', encoding='utf-8') as f:
-        f.write(msg)
-    return
-
-
-@bot.command()
-async def checkduplicates(ctx):
-    if ctx.author.id not in list(ADMINS.values()):
-        return
-    namelist = []
-    duplicates = []
-    for item in prints.keys():
-        if item.lower() in namelist:
-            duplicates.append(item.lower())
-        else:
-            namelist.append(item.lower())
-    t = time.asctime(time.gmtime())
-    msg = "Duplicate Entries at " + t + "\n"
-    for item in duplicates:
-        msg += item + ", "
-    await ctx.send(msg[0:-2])
-
-@bot.command()
-async def get_missing_images(ctx):
-    if ctx.author.id not in list(ADMINS.values()):
-        return
-    json = list(prints.keys())
-    os.chdir(os.path.join(CURRENT_DIR, "miis"))
-    allprints = os.listdir()
-    lines = []
-    for name in json:
-        if prints[name]["Clan Tag"] != "F/A":
-            imgname = name + ".png"
-            if not os.path.exists(imgname):
-                lines.append(prints[name]["Clan Tag"] + " " + name + "\n")
-    os.chdir(CURRENT_DIR)
-    lines.sort()
-    t = time.asctime(time.gmtime())
-    msg = str(len(lines)) + " missing mii pictures\n"
-    for line in lines:
-        msg += line
-    await ctx.send(msg[0:1999])
-    await ctx.send(msg[1999:])
-
 @bot.command()
 async def cardstring(ctx, id=None):
     if ctx.author.id not in list(ADMINS.values()):
@@ -1422,25 +1550,97 @@ async def cardstring(ctx, id=None):
     await ctx.send(str(card))
     return
 
-"""
-#Error-catching (credit Fear)
-@bot.event
-async def on_command_error(ctx, error):
-    if isinstance(error, discord.ext.commands.errors.CommandNotFound):
-        return
-    elif isinstance(error, discord.ext.commands.errors.CommandOnCooldown):
-        await ctx.send(str(error))
-    elif isinstance(error, discord.ext.commands.errors.MissingAnyRole):
-        await ctx.send(error)
-        return
-    else:
-        await ctx.send(str(error))
-        print(error)
-        return
-"""
+# @bot.command()
+# async def getfcs(ctx):
+#     if ctx.author.id not in list(ADMINS.values()):
+#         return
+#     json = list(prints.keys())
+#     os.chdir(os.path.join(CURRENT_DIR, "miis"))
+#     allprints = os.listdir()
+#     lines = []
+#     missingfcs = []
+#     for name in json:
+#         imgname = name + ".png"
+#         if not os.path.exists(imgname):
+#             try:
+#                 code = fcs[name.lower()]["fc"]
+#                 lines.append(name + " " + code + "\n")
+#             except:
+#                 lines.append(name + "\n")
+#                 missingfcs.append(name)
+#     lines.sort()
+#     t = time.asctime(time.gmtime())
+#     msg = "Missing Entries at " + t + "\n"
+#     for line in lines:
+#         msg += line
+#     os.chdir(CURRENT_DIR)
+#     with codecs.open(f'{JSON_DIR}missingimageswithfcs.txt', 'w', encoding='utf-8') as f:
+#         f.write(msg)
+#     await ctx.send("Saved to missingimageswithfcs.txt")
+#     msg = "Missing FCs from " + "\n".join(missingfcs)
+#     with codecs.open(f'{JSON_DIR}missingfcs.txt', 'w', encoding='utf-8') as f:
+#         f.write(msg)
+#     return
+#
+#
+# @bot.command()
+# async def checkduplicates(ctx):
+#     if ctx.author.id not in list(ADMINS.values()):
+#         return
+#     namelist = []
+#     duplicates = []
+#     for item in prints.keys():
+#         if item.lower() in namelist:
+#             duplicates.append(item.lower())
+#         else:
+#             namelist.append(item.lower())
+#     t = time.asctime(time.gmtime())
+#     msg = "Duplicate Entries at " + t + "\n"
+#     for item in duplicates:
+#         msg += item + ", "
+#     await ctx.send(msg[0:-2])
+#
+# @bot.command()
+# async def get_missing_images(ctx):
+#     if ctx.author.id not in list(ADMINS.values()):
+#         return
+#     json = list(prints.keys())
+#     os.chdir(os.path.join(CURRENT_DIR, "miis"))
+#     allprints = os.listdir()
+#     lines = []
+#     for name in json:
+#         if prints[name]["Clan Tag"] != "F/A":
+#             imgname = name + ".png"
+#             if not os.path.exists(imgname):
+#                 lines.append(prints[name]["Clan Tag"] + " " + name + "\n")
+#     os.chdir(CURRENT_DIR)
+#     lines.sort()
+#     t = time.asctime(time.gmtime())
+#     msg = str(len(lines)) + " missing mii pictures\n"
+#     for line in lines:
+#         msg += line
+#     await ctx.send(msg[0:1999])
+#     await ctx.send(msg[1999:])
+#
+# Error-catching (credit Fear)
+# @bot.event
+# async def on_command_error(ctx, error):
+#     if isinstance(error, discord.ext.commands.errors.CommandNotFound):
+#         return
+#     elif isinstance(error, discord.ext.commands.errors.CommandOnCooldown):
+#         await ctx.send(str(error))
+#     elif isinstance(error, discord.ext.commands.errors.MissingAnyRole):
+#         await ctx.send(error)
+#         return
+#     else:
+#         await ctx.send(str(error))
+#         print(error)
+#         return
+
 
 @bot.event
 async def on_ready():
+
     ##the following is just to make text files telling me what miis and print entries are missing
     os.chdir(os.path.join(CURRENT_DIR, "miis"))
     allprints = [file[:-4] for file in os.listdir()]
